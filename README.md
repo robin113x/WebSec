@@ -7,4 +7,4 @@
  SELECT * FROM products WHERE category = ' '  or 1=1  ' --+ AND released = 1
 
 
-"Robin"
+"Robin Nikita"
