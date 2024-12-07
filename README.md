@@ -7,4 +7,4 @@
  SELECT * FROM products WHERE category = ' '  or 1=1  ' --+ AND released = 1
 
 
-"Robin Nikita"
+https://portswigger-cdn.net/burp/releases/download?product=pro&version=2024.10.3&type=Jar
