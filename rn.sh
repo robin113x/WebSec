@@ -103,7 +103,7 @@ run_from_anywhere() {
   sudo chmod 777 burp
   sudo mv burp /bin/
   clear
-  echo "Type 'burp' in the terminal to run"
+  
 }
 
 # Main script execution
@@ -117,7 +117,8 @@ run_from_anywhere
 
 # Here, the user will choose the Java version to be used
 # Prompt the user to select version 22 for Java
-sudo update-alternatives --config java
-
+clear
 echo "Remember to select version 22 when prompted!"
-
+sudo update-alternatives --config java
+clear
+echo "Type 'burp' in the terminal to run"
