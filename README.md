@@ -18,8 +18,9 @@ https://portswigger-cdn.net/burp/releases/download?product=pro&version=2024.10.3
 
 
 # XRAY 
-
+ ```
 ./xray_linux_amd64 webscan --url https://bwed.ac.in/ --html-output vuln.html
+ ```
 This provides more comprehensive crawling than --basic-crawler.
 
 Specify Custom Plugins: To focus on specific vulnerability types:
