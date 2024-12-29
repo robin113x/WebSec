@@ -83,3 +83,45 @@ Tools :
     assetfinder
     sublist3r /subfinder
     nuclei : https://github.com/projectdiscovery/nuclei
+    ffuf
+
+
+
+
+manual find subdomain with = crt.sh virustotal  chaos.projectdiscovery.io
+https://www.virustotal.com/gui/home/u...
+https://chaos.projectdiscovery.io/#/
+https://crt.sh/?q=
+
+automate subdomain = subfinder assetfinder sublist3r amass 
+https://github.com/tomnomnom/assetfinder
+https://github.com/owasp-amass/amass
+https://github.com/projectdiscovery/subfinder
+
+brute force subdomain = ffuf gobuseter dirbuster amass
+
+wordlist = Seclists , https://github.com/n0kovo/n0kovo_subdomains
+
+live domain = httpx https://github.com/projectdiscovery/httpx
+
+screenshoting = gowitness https://github.com/sensepost/gowitness
+
+deep recon = https://github.com/shmilylty/OneForAll
+
+find urls = waybackurl katana https://github.com/projectdiscovery/katana.. ,https://github.com/GerbenJavado/LinkFinder 
+
+js data = subjs https://github.com/lc/subjs , katana -jc  
+
+find path = dirsearch, ffuf https://github.com/ffuf/ffuf
+
+parameter finder = arjun https://github.com/s0md3v/Arjun 
+
+subdomain find = subzy https://github.com/PentestPad/subzy
+
+Broken Link Hijacking = socialhunter https://github.com/utkusen/socialhunter
+
+port finder = nmap p -T4 -sC -sV [ip address]
+
+google dorking = https://nitinyadav00.github.io/Bug-Bounty-Search-Engine/
+
+xss = https://github.com/faiyazahmad07/xss_vibes
