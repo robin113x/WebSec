@@ -73,6 +73,13 @@ For other usage, please read the documentation: https://docs.xray.cool
 
 
 online tool 
-    check os : search.censys.io /  https://www.jsonapi.co/public-api/Censys.io/alternatives
+    check os : search.censys.io / 
+    crt.sh
+    chaos.projectdiscovery.io  / https://cloud.projectdiscovery.io/
+    https://dnsdumpster.com/
 
-    
+Tools : 
+    dnscan :https://github.com/rbsec/dnscan     : 2m-wordlist.txt
+    assetfinder
+    sublist3r /subfinder
+    nuclei : https://github.com/projectdiscovery/nuclei
