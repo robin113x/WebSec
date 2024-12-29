@@ -66,3 +66,13 @@ https://portswigger-cdn.net/burp/releases/download?product=pro&version=2024.10.3
 
    
 For other usage, please read the documentation: https://docs.xray.cool
+
+
+
+# ***************************************** RECON
+
+
+online tool 
+    check os : search.censys.io /  https://www.jsonapi.co/public-api/Censys.io/alternatives
+
+    
