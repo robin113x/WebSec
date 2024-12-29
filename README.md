@@ -21,15 +21,49 @@ https://portswigger-cdn.net/burp/releases/download?product=pro&version=2024.10.3
  ```
 ./xray_linux_amd64 webscan --url https://bwed.ac.in/ --html-output vuln.html
  ```
-This provides more comprehensive crawling than --basic-crawler.
+## 🚀 Quick Usage
 
-Specify Custom Plugins: To focus on specific vulnerability types:
+**Before using, be sure to read and agree to the terms in the [License](https://github.com/chaitin/xray/blob/master/LICENSE.md) file. If not, please do not install or use this tool.**
 
-bash
-Copy code
-./xray_linux_amd64 webscan --plugin sql-injection,xss --url https://biteac.in/ --html-output vuln.html
-Log Output: Enable logging for better debugging:
+1. Use the basic crawler to scan the links crawled by the crawler for vulnerabilities
 
-bash
-Copy code
-./xray_linux_amd64 webscan --basic-crawler https://juice-shop.herokuapp.com/ --html-output vuln.html
+    ```bash
+    xray webscan --basic-crawler http://example.com --html-output vuln.html
+    ```
+
+2. Use HTTP proxy for passive scanning
+
+    ```bash
+    xray webscan --listen 127.0.0.1:7777 --html-output proxy.html
+    ```
+   Set the browser's HTTP proxy to `http://127.0.0.1:7777`, then you can automatically analyze proxy traffic and scan it.
+
+   > To scan HTTPS traffic, please read the "Capture HTTPS Traffic" section below.
+
+3. Scan a single URL without using a crawler
+
+    ```bash
+    xray webscan --url http://example.com/?a=b --html-output single-url.html
+    ```
+
+4. Manually specify plugins for this run
+
+   By default, all built-in plugins will be enabled. You can specify the plugins to be enabled for this scan with the following commands.
+
+   ```bash
+   xray webscan --plugins cmd-injection,sqldet --url http://example.com
+   xray webscan --plugins cmd-injection,sqldet --listen 127.0.0.1:7777
+   ```
+
+5. Specify Plugin Output
+
+   You can specify to output the vulnerability information of this scan to a file:
+
+    ```bash
+    xray webscan --url http://example.com/?a=b \
+    --text-output result.txt --json-output result.json --html-output report.html
+    ```
+
+   [Sample Report](https://docs.xray.cool/assets/report_example.html)
+
+For other usage, please read the documentation: https://docs.xray.cool
