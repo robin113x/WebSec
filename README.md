@@ -64,6 +64,5 @@ https://portswigger-cdn.net/burp/releases/download?product=pro&version=2024.10.3
     --text-output result.txt --json-output result.json --html-output report.html
     ```
 
-   [Sample Report](https://docs.xray.cool/assets/report_example.html)
-
+   
 For other usage, please read the documentation: https://docs.xray.cool
