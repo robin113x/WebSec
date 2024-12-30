@@ -6,4 +6,4 @@ https://inteltechniques.com/tools/Domain.html
 
 3.assestfinder : ./assesfinder -subs-only robin.com
 
-4.dnscan : ./dnscan -w 
+4.dnscan : ./dnscan -w n0kovo_subdomains_huge.txt -d ge
