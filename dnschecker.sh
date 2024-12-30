@@ -6,4 +6,4 @@ do
 	curl $line &>/dev/null
 	if [ $? == 0 ];
 	then
-		echo 
+		echo "[]"
