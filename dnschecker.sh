@@ -13,7 +13,9 @@ while IFS= read -r line; do
         # Send request with a timeout of 5 seconds
         curl -s --max-time 5 --head "$line" &>/dev/null
         if [ $? -eq 0 ]; then
-            echo -e "\033[32m[+] $line is live\033[0m"  # Green text for live
+            echo -e "\033[32m[+] $line is live\033[0m"   >> live_subDomain.# Green text for live
+        else
+            echo -e "\033[31m[-] $line is not reachable\033[0m"  # Red text for not reachable
         fi
     fi
 done < "$1"
