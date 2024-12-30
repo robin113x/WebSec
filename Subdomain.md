@@ -1,3 +1,3 @@
 Subdomain ENUM : 
 
-1.subfinder :  ./subfinder -d robin.com - acti
+1.subfinder :  ./subfinder -d robin.com -active 
