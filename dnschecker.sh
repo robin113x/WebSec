@@ -9,24 +9,22 @@ fi
 # Create or clear the output file
 > live_subDomain.txt
 
-# Set the maximum number of parallel jobs
-MAX_PARALLEL=10
+
+MAX_PARALLEL=50
 SEMAPHORE="/tmp/parallel_$$.lock"
 
-# Function to manage parallel execution
 limit_parallel() {
     while [ "$(jobs -rp | wc -l)" -ge "$MAX_PARALLEL" ]; do
         sleep 0.1
     done
 }
 
-# Read file line by line
+
 while IFS= read -r line; do
     if [ -n "$line" ]; then
-        # Limit the number of parallel jobs
+  
         limit_parallel
         
-        # Run curl in the background
         {
             curl "$line" &>/dev/null
             if [ $? -eq 0 ]; then
