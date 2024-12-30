@@ -28,7 +28,7 @@ while IFS= read -r line; do
             if [ $? -eq 0 ]; then
                 echo -e "[+] $line is live" | tee -a live_subDomain.txt
             else
-                echo -e "[-] $line is not reachable"
+                echo -e "\033[31m[-] $line is not reachable"
             fi
         } &
     fi
