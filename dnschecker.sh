@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-cat $1
+cat $1 |
