@@ -12,4 +12,5 @@ https://inteltechniques.com/tools/Domain.html
 
      5.sublist3r : python sublist3r.py -d example.com
 
-     6.knockpy : 
+     6.knockpy :  git clone https://github.com/guelfoweb/knock.git cd knock
+pip install .
