@@ -26,7 +26,7 @@ while IFS= read -r line; do
         {
             curl "$line" &>/dev/null
             if [ $? -eq 0 ]; then
-                echo -e "[+] $line is live" | tee -a live_subDomain.txt
+                echo -e "\033[32m[+] $line is live" | tee -a live_subDomain.txt
             else
                 echo -e "\033[31m[-] $line is not reachable"
             fi
