@@ -10,4 +10,4 @@ https://inteltechniques.com/tools/Domain.html
 
 5.sublist3r : 
 
-6.kno
+6.knockpy : 
