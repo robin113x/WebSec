@@ -19,5 +19,13 @@ https://inteltechniques.com/tools/Domain.html
   ## 
 
   ```
+  		Subdomain enumeration tools
+• Subfinder - https://github.com/projectdiscovery/subfinder
+• Sublister - https://github.com/aboul3la/Sublist3r
+• Amass - https://github.com/OWASP/Amass
+• Assetfinder - https://github.com/tomnomnom/assetfinder
+• KnockPy - https://github.com/guelfoweb/knock
+• Anew - https://github.com/tomnomnom/anew
+• DNS gen - https://github.com/ProjectAnte/dnsgen
 
   ```
