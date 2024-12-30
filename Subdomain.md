@@ -10,6 +10,6 @@ https://inteltechniques.com/tools/Domain.html
 
      4.dnscan : ./dnscan -w n0kovo_subdomains_huge.txt -d robin.com
 
-5.sublist3r : python sublist3r.py -d example.com
+      5.sublist3r : python sublist3r.py -d example.com
 
-6.knockpy : 
+      6.knockpy : 
