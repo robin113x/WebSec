@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/
 
 cat $1 |
 while read line
