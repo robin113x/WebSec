@@ -9,3 +9,5 @@ https://inteltechniques.com/tools/Domain.html
 4.dnscan : ./dnscan -w n0kovo_subdomains_huge.txt -d robin.com
 
 5.sublist3r : 
+
+6.
