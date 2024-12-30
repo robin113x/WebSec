@@ -22,9 +22,7 @@ limit_parallel() {
 
 while IFS= read -r line; do
     if [ -n "$line" ]; then
-  
         limit_parallel
-        
         {
             curl "$line" &>/dev/null
             if [ $? -eq 0 ]; then
@@ -36,7 +34,6 @@ while IFS= read -r line; do
     fi
 done < "$1"
 
-# Wait for all background jobs to finish
 wait
 
 echo "Scan complete. Live subdomains saved to live_subDomain.txt."
