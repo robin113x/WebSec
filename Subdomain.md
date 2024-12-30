@@ -4,4 +4,4 @@ https://inteltechniques.com/tools/Domain.html
 	-binaryedge.io
 2.amass : amass enum -d robin.com
 
-3.assestfinder : 
+3.assestfinder : https://github.com/tomnomnom/assetfinder/releases/download/v0.1.1/assetfinder-linux-amd64-0.1.1.tgz
