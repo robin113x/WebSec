@@ -9,7 +9,7 @@ fi
 while IFS= read -r line; do
     # Check if line is not empty
     if [ -n "$line" ]; then
-        curl -s --max-time 5 --head "$line" &>/dev/null
+        curl  "$line" &>/dev/null
         if [ $? -eq 0 ]; then
             echo -e "\033[32m[+] $line is live\033[0m"  
         fi
