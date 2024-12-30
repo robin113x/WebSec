@@ -14,6 +14,6 @@ https://inteltechniques.com/tools/Domain.html
 
      6.knockpy :  git clone https://github.com/guelfoweb/knock.git
 
-     7.dnsgen :  echo "robin.com" | dnsgen - |
+     7.dnsgen :  echo "robin.com" | dnsgen - | tee -a sub.txt
 
   ## 
