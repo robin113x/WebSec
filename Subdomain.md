@@ -1,3 +1,3 @@
 Subdomain ENUM : 
 
-1.subfind
+1.subfinder : 
