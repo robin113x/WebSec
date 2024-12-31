@@ -19,7 +19,7 @@ https://inteltechniques.com/tools/Domain.html
   ## 
 
   ```
-  		***          Subdomain enumeration tools     ***
+  		***               ***
 • Subfinder - https://github.com/projectdiscovery/subfinder
 • Sublister - https://github.com/aboul3la/Sublist3r
 • Amass - https://github.com/OWASP/Amass
