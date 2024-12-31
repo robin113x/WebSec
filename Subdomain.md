@@ -16,7 +16,7 @@ https://inteltechniques.com/tools/Domain.html
 
      7.dnsgen :  echo "robin.com" | dnsgen - | tee -a sub.txt
 
-     8.censys : c
+     8.censys : 
 
   ## 
 
