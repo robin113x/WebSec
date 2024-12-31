@@ -29,4 +29,10 @@ https://inteltechniques.com/tools/Domain.html
 • DNS gen - https://github.com/ProjectAnte/dnsgen
 
   ```
-  
+
+
+  1. Subdomain enumeration from webites
+a. Virustotal website - https://www.virustotal.com/
+b. Censys Website - https://censys.io/
+c. Projectdiscovery - https://chaos.projectdiscovery.io/#/
+d. Crt.sh - https://crt.sh
