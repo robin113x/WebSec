@@ -17,6 +17,7 @@ https://inteltechniques.com/tools/Domain.html
      7.dnsgen :  echo "robin.com" | dnsgen - | tee -a sub.txt
 
      8.censys : https://github.com/christophetd/censys-subdomain-finder
+     
 
   ## 
 
@@ -30,7 +31,6 @@ https://inteltechniques.com/tools/Domain.html
 • KnockPy - https://github.com/guelfoweb/knock
 • Anew - https://github.com/tomnomnom/anew
 • DNS gen - https://github.com/ProjectAnte/dnsgen
-
 
   ```
 
