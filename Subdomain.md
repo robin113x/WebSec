@@ -32,7 +32,7 @@ https://inteltechniques.com/tools/Domain.html
 
 
  ```
-  1. Subdomain enumeration from webites
+Subdomain enumeration from webites
 a. Virustotal website - https://www.virustotal.com/
 b. Censys Website - https://censys.io/
 c. Projectdiscovery - https://chaos.projectdiscovery.io/#/
