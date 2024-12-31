@@ -49,7 +49,7 @@ d. Crt.sh - https://crt.sh
 ## Filterning Live Domain
 
 ```
-1.httpx : cat subdomain.txt | httpx  (-favicon)
+1.httpx : cat subdomain.txt | httpx  (-favico)
 
 
 ```
