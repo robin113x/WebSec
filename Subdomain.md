@@ -31,7 +31,7 @@ https://inteltechniques.com/tools/Domain.html
 
   ```
 
-##Subdomain enumeration from webites
+## Subdomain enumeration from webites
 
  ```
 
