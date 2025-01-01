@@ -9,8 +9,8 @@ https://inteltechniques.com/tools/Domain.html
 5.sublist3r      : python sublist3r.py -d example.com
 6.knockpy        :  git clone https://github.com/guelfoweb/knock.git
 7.dnsgen         :  echo "robin.com" | dnsgen - | tee -a sub.txt
-8.censys     : https://github.com/christophetd/censys-subdomain-finder
-9.FFUF : 
+8.censys         : https://github.com/christophetd/censys-subdomain-finder
+9.FFUF           : 
 
 ```
 
