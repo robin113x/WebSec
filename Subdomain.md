@@ -40,9 +40,9 @@ https://inteltechniques.com/tools/Domain.html
  ```
 
 1. Virustotal website - https://www.virustotal.com/
-b. Censys Website - https://censys.io/
-c. Projectdiscovery - https://chaos.projectdiscovery.io/#/
-d. Crt.sh - https://crt.sh
+2. Censys Website - https://censys.io/
+3. Projectdiscovery - https://chaos.projectdiscovery.io/#/
+4. Crt.sh - https://crt.sh
 
   ```
 
