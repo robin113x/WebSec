@@ -90,5 +90,4 @@ https://inteltechniques.com/tools/Domain.html
 5.GitHub recon
   - Search repositories for API keys, configuration files,and credentials
   - Automated tools available
-
 ```
