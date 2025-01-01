@@ -8,13 +8,13 @@ https://inteltechniques.com/tools/Domain.html
 
   3.assestfinder : ./assesfinder -subs-only robin.com
 
-     4.dnscan : ./dnscan -w n0kovo_subdomains_huge.txt -d robin.com
+  4.dnscan : ./dnscan -w n0kovo_subdomains_huge.txt -d robin.com
 
-     5.sublist3r : python sublist3r.py -d example.com
+  5.sublist3r : python sublist3r.py -d example.com
 
-     6.knockpy :  git clone https://github.com/guelfoweb/knock.git
+  6.knockpy :  git clone https://github.com/guelfoweb/knock.git
 
-     7.dnsgen :  echo "robin.com" | dnsgen - | tee -a sub.txt
+    7.dnsgen :  echo "robin.com" | dnsgen - | tee -a sub.txt
 
      8.censys : https://github.com/christophetd/censys-subdomain-finder
 
