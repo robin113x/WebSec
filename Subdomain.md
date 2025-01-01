@@ -82,7 +82,7 @@ d. Crt.sh - https://crt.sh
 ```
 1.Google Dorking : https://nitinyadav00.github.io/Bug-Bounty-Search-Engine/ 
 2.WHOIS & Reverse WHOIS
-3
+3.IP Address L
 
 
 ```
