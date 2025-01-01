@@ -66,7 +66,7 @@ d. Crt.sh - https://crt.sh
 ## Version & OS Assessment 
 
 ```
-
+```
 
 
 # Manul Recon
