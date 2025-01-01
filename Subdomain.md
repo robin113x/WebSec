@@ -71,7 +71,7 @@ https://inteltechniques.com/tools/Domain.html
 
 ```
 
-# Spidering
+# Spidering (ZAP)
 ```
 1.Google Dorking        : https://nitinyadav00.github.io/Bug-Bounty-Search-Engine/ 
 2.WHOIS & Reverse WHOIS
