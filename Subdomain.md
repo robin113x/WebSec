@@ -87,8 +87,7 @@ d. Crt.sh - https://crt.sh
 - Certificates may contain valuable information
 - Uncover hidden subdomains
 5.GitHub recon
-- Search repositories for API keys, configuration files,
-and credentials
+- Search repositories for API keys, configuration files,and credentials
 - Automated tools available
 
 
