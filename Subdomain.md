@@ -72,5 +72,5 @@ d. Crt.sh - https://crt.sh
 # Manul Recon
 ```
 1.Browser Devloper Tools
-2.
+2.B
 ```
