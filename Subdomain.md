@@ -91,5 +91,4 @@ https://inteltechniques.com/tools/Domain.html
   - Search repositories for API keys, configuration files,and credentials
   - Automated tools available
 
-
 ```
