@@ -78,7 +78,7 @@ d. Crt.sh - https://crt.sh
 
 ```
 
-# Google Dorking 
+# 
 ```
 
 ```
