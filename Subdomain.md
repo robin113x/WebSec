@@ -59,6 +59,7 @@ d. Crt.sh - https://crt.sh
 ```
 1.NMap:
 2.GoBuster
-3.Netc
+3.NetCat
+
 
 ```
