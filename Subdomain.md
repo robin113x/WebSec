@@ -67,13 +67,13 @@ https://inteltechniques.com/tools/Domain.html
 1.Browser Devloper Tools :  Inspecting HTTP responses, headers, and scripts.
 2.Browser Extension      : Wappalyzer , BuildWith
 3.CLI                    : wget ,cURl
-4.Editor  : Sublime/VsCode
+4.Editor                 : Sublime/VsCode
 
 ```
 
 # Spidering
 ```
-1.Google Dorking : https://nitinyadav00.github.io/Bug-Bounty-Search-Engine/ 
+1.Google Dorking        : https://nitinyadav00.github.io/Bug-Bounty-Search-Engine/ 
 2.WHOIS & Reverse WHOIS
 3.IP Address LOOKUPS (nslookup)
 4.Certificate parsing
