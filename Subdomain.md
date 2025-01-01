@@ -73,5 +73,5 @@ d. Crt.sh - https://crt.sh
 ```
 1.Browser Devloper Tools
 2.Browser Extension : Wappalyzer , BuildWith
-3.CLI : wget 
+3.CLI : wget ,cUR
 ```
