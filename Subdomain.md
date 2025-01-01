@@ -63,4 +63,4 @@ d. Crt.sh - https://crt.sh
 
 
 ```
-## Version & OS 
+## Version & OS Assess
