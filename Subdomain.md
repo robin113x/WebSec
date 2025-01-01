@@ -39,7 +39,7 @@ https://inteltechniques.com/tools/Domain.html
 
  ```
 
-a. Virustotal website - https://www.virustotal.com/
+1. Virustotal website - https://www.virustotal.com/
 b. Censys Website - https://censys.io/
 c. Projectdiscovery - https://chaos.projectdiscovery.io/#/
 d. Crt.sh - https://crt.sh
