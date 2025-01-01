@@ -66,6 +66,7 @@ https://inteltechniques.com/tools/Domain.html
 ## Version & OS Assessment 
 
 ```
+
 ```
 
 
