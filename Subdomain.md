@@ -65,7 +65,7 @@ https://inteltechniques.com/tools/Domain.html
 # Manul Recon
 ```
 1.Browser Devloper Tools :  Inspecting HTTP responses, headers, and scripts.
-2.Browser Extension : Wappalyzer , BuildWith
+2.Browser Extension      : Wappalyzer , BuildWith
 3.CLI : wget ,cURl
 4.Editor : Sublime/VsCode
 
