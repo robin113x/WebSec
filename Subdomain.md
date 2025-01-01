@@ -14,11 +14,11 @@ https://inteltechniques.com/tools/Domain.html
 
   6.knockpy :  git clone https://github.com/guelfoweb/knock.git
 
-    7.dnsgen :  echo "robin.com" | dnsgen - | tee -a sub.txt
+  7.dnsgen :  echo "robin.com" | dnsgen - | tee -a sub.txt
 
-     8.censys : https://github.com/christophetd/censys-subdomain-finder
+  8.censys : https://github.com/christophetd/censys-subdomain-finder
 
-     9.FFUF : 
+  9.FFUF : 
 
   ## 
 
