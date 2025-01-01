@@ -80,7 +80,7 @@ d. Crt.sh - https://crt.sh
 
 # Spidering
 ```
-1.Google Dorking : 
+1.Google Dorking : https://inteltechniques.com/tools/Domain.html
 
 
 
