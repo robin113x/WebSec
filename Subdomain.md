@@ -42,7 +42,7 @@ https://inteltechniques.com/tools/Domain.html
 
 ```
 1.httpx : cat subdomain.txt | httpx  (-favico)
-2.httpp
+2.httpprobe
 
 
 ```
