@@ -13,7 +13,7 @@ https://inteltechniques.com/tools/Domain.html
 7.dnsgen         : echo "robin.com" | dnsgen - | tee -a sub.txt
 8.censys         : https://github.com/christophetd/censys-subdomain-finder
 9.FFUF           : 
-
+10.PureDNS
 
 ```
 
