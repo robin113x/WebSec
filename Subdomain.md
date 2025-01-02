@@ -75,7 +75,7 @@ https://inteltechniques.com/tools/Domain.html
 ```
 1.Google Dorking        : https://nitinyadav00.github.io/Bug-Bounty-Search-Engine/ 
 2.WHOIS & Reverse WHOIS
-3.IP Address LOOKUPS    : nslookup)
+3.IP Address LOOKUPS    : nslookup
 4.Certificate parsing   : openssl
   - Certificates may contain valuable information
   - Uncover hidden subdomains
