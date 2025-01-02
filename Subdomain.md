@@ -88,6 +88,6 @@ https://inteltechniques.com/tools/Domain.html
  # URL 
  ```
  1.gau : https://github.com/lc/gau 
- 2.go
+ 2.goSpider : 
 
  ```
