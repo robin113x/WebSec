@@ -79,7 +79,7 @@ https://inteltechniques.com/tools/Domain.html
 4.Certificate parsing   : openssl
   - Certificates may contain valuable information
   - Uncover hidden subdomains
-5.GitHub recon
+5.GitHub recon 
   - Search repositories for API keys, configuration files,and credentials
   - Automated tools available
 ```
