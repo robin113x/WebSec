@@ -1,4 +1,5 @@
-# ASN
+# ASN : ASNs will give us IP Addresses of owned servers
+These IPs will lead to more apex domains, websites, & services.
 ```
 0.HURRICAN       : https://bgp.he.net/
 1.ASNLookup      :
