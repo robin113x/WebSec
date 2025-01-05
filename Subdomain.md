@@ -2,7 +2,7 @@
 ```
 0.HURRICAN       : https://bgp.he.net/
 1.ASNLookup      :
-2.Metabigor      :
+2.Metabigor      :https://github.com/j3ssie/metabigor?tab=readme-ov-file
 3.Karma_v2       :
 4.Shasubgo       : shosubgo  -d hcltecho.com -s shodan_api -o hctltecho.txt
 5.ARIN           : https://search.arin.net/rdap/
