@@ -4,7 +4,7 @@
 1.ASNLookup      :
 2.Metabigor      :
 3.Karma_v2       :
-4.Shasubgo       : shosubgo  -d hcltech.com -s 5QgcwA3Xsya1Bd6Tl6pU0zcwl7jjSlKC -o hctltech/
+4.Shasubgo       : shosubgo  -d hcltech.com -s shodan_api -o hctltech/
 5.ARIN           : https://search.arin.net/rdap/
 
 ```
