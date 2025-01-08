@@ -43,6 +43,6 @@ Look for places where a website accepts user input and displays it back. These c
 -Comment sections
 -Login forms
 -URL parameters (GET requests)
-Cookies and headers
-File upload functionality
+-Cookies and headers
+-File upload functionality
 ```
