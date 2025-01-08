@@ -150,10 +150,7 @@ Using Unicode Encoding:
 Using Obfuscation:
         <img src=x onerror='javasc'+'ript:alert("XSS")'>
 Using Event Handlers:
-
-html
-Copy code
-<input type="text" onfocus="alert('XSS')">
+        <input type="text" onfocus="alert('XSS')">
 📌 Step 8: Report XSS Vulnerabilities
 If you find an XSS vulnerability, report it responsibly to the website owner or use bug bounty platforms like:
 
