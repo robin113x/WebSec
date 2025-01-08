@@ -105,6 +105,7 @@ Enter this in the URL:
 php
 https://example.com/#<script>alert('DOM XSS');</script>
 Or test in the input fields:
+```
 
 html
 Copy code
