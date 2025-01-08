@@ -121,6 +121,7 @@ Check if the website uses functions like innerHTML, document.write(), or eval().
 
 ### 📌 Step 6: Use XSS Hunting Tools
 #### 🧰 1. Burp Suite (Most Popular)
+```
 Intercept requests and modify user input to inject XSS payloads.
 Use Burp Scanner to automate XSS checks.
 🧰 2. OWASP ZAP (Free and Open Source)
