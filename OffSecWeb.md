@@ -10,7 +10,7 @@
 # 🎯 Why is XSS Dangerous?
 ```
  - Steal cookies and session tokens (can take over user accounts). / Keylogging
- - Redirect users to malicious websites.
+ - Redirect users to malicious websites. / Phishing 
  - Modify the website’s content.
  - Spread malware.
 ```
