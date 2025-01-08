@@ -58,11 +58,10 @@ Copy code
 ```
 
 ```
-html
 <img src=x onerror=alert('XSS')>
 ```
 ```
-html
+
 <svg onload=alert('XSS')>
 ```
 
