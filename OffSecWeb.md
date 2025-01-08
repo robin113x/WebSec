@@ -145,9 +145,6 @@ A dedicated XSS tool that intelligently finds and exploits XSS vulnerabilities.
 Some websites may block basic payloads. Try bypass techniques:
 
 Bypass Tags:
-
-html
-Copy code
 <<script>alert('XSS');</script>
 Using Unicode Encoding:
 
