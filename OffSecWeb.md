@@ -140,7 +140,8 @@ A dedicated XSS tool that intelligently finds and exploits XSS vulnerabilities.
    - Use XSS Hunter to find blind XSS vulnerabilities.
    - It provides a custom tracking domain to catch XSS that doesn't show immediate output.
 ```
-📌 Step 7: Bypass Filters (WAF/Firewalls)
+### 📌 Step 7: Bypass Filters (WAF/Firewalls)
+```
 Some websites may block basic payloads. Try bypass techniques:
 
 Bypass Tags:
