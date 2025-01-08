@@ -99,6 +99,7 @@ Post a comment like this: <script>alert('Stored XSS');</script>
 ## DOM-based XSS happens when the website’s JavaScript manipulates the DOM using user input without proper validation.
 
 ### ✅ Payloads to Try:
+```
 Enter this in the URL:
 
 php
