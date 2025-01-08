@@ -46,7 +46,7 @@ Look for places where a website accepts user input and displays it back. These c
     - File upload functionality
 ```
 
-# 📌 Step 2: Test for Reflected XSS (Quick Wins)
+### 📌 Step 2: Test for Reflected XSS (Quick Wins)
 ## Reflected XSS occurs when a script is injected into a URL or input field and gets reflected back immediately.
 
 ### ✅ Payloads to Try:
