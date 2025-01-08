@@ -110,5 +110,6 @@ Or test in the input fields:
 <input type="text" onfocus="alert('XSS')">
 ```
 ### 🚩 Look for JavaScript Functions
-
+```
 Check if the website uses functions like innerHTML, document.write(), or eval().
+```
