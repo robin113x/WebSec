@@ -125,7 +125,8 @@ Check if the website uses functions like innerHTML, document.write(), or eval().
 Intercept requests and modify user input to inject XSS payloads.
 Use Burp Scanner to automate XSS checks.
 ```
-####🧰 2. OWASP ZAP (Free and Open Source)
+#### 🧰 2. OWASP ZAP (Free and Open Source)
+```
 Automated scanner for finding XSS and other vulnerabilities.
 🧰 3. XSStrike
 A dedicated XSS tool that intelligently finds and exploits XSS vulnerabilities.
