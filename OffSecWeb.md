@@ -31,4 +31,4 @@ DOM-based XSS:
     - Example: A website’s JavaScript dynamically updates the page using URL parameters without validation.
 ```
 
-# 
+# 🔎 How to Hunt for XSS (Cross-Site Scripting)?
