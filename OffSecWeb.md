@@ -155,12 +155,11 @@ Some websites may block basic payloads. Try bypass techniques:
 ### 📌 Step 8: Report XSS Vulnerabilities
 ```
 If you find an XSS vulnerability, report it responsibly to the website owner or use bug bounty platforms like:
-
 HackerOne (https://hackerone.com)
 Bugcrowd (https://bugcrowd.com)
 Intigriti (https://www.intigriti.com)
 ```
-🚩 Signs of a Successful XSS:
+##🚩 Signs of a Successful XSS:
 You see an alert box.
 You can steal cookies using:
 javascript
