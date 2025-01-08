@@ -30,6 +30,6 @@ Reflected XSS:
     - Example: An attacker sends a link with malicious code, and if the victim clicks it, the script runs.
 
 DOM-based XSS:
-Happens when the client-side script processes untrusted data.
+    - Happens when the client-side script processes untrusted data.
 Example: A website’s JavaScript dynamically updates the page using URL parameters without validation.
 ```
