@@ -66,7 +66,7 @@ html
 <svg onload=alert('XSS')>
 ```
 
-### In URL Parameters:
+### 2. In URL Parameters:
 ````
 Try injecting payloads into URL parameters.
 
