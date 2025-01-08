@@ -95,3 +95,19 @@ Post a comment like this: <script>alert('Stored XSS');</script>
 
 
 ### 📌 Step 4: Test for DOM-Based XSS
+
+DOM-based XSS happens when the website’s JavaScript manipulates the DOM using user input without proper validation.
+
+✅ Payloads to Try:
+Enter this in the URL:
+
+php
+Copy code
+https://example.com/#<script>alert('DOM XSS');</script>
+Or test in the input fields:
+
+html
+Copy code
+<input type="text" onfocus="alert('XSS')">
+🚩 Look for JavaScript Functions
+Check if the website uses functions like innerHTML, document.write(), or eval().
