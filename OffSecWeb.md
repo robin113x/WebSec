@@ -143,9 +143,8 @@ A dedicated XSS tool that intelligently finds and exploits XSS vulnerabilities.
 ### 📌 Step 7: Bypass Filters (WAF/Firewalls)
 ```
 Some websites may block basic payloads. Try bypass techniques:
-
 Bypass Tags:
-<<script>alert('XSS');</script>
+        <<script>alert('XSS');</script>
 Using Unicode Encoding:
 
 html
