@@ -133,8 +133,8 @@ Automated scanner for finding XSS and other vulnerabilities.
 ```
 A dedicated XSS tool that intelligently finds and exploits XSS vulnerabilities.
    - git clone https://github.com/s0md3v/XSStrike
-python3 xsstrike.py -u https://example.com
-
+   - python3 xsstrike.py -u https://example.com
+```
 🧰 4. XSS Hunter (Advanced)
 Use XSS Hunter to find blind XSS vulnerabilities.
 It provides a custom tracking domain to catch XSS that doesn't show immediate output.
