@@ -38,7 +38,6 @@ DOM-based XSS:
 ### 📌 Step 1: Identify User Input Fields
 ```
 Look for places where a website accepts user input and displays it back. These can include:
-
 -Search boxes
 -Comment sections
 -Login forms
