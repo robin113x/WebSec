@@ -32,4 +32,5 @@ DOM-based XSS:
 ```
 
 # 🔎 How to Hunt for XSS (Cross-Site Scripting)?
-##
+
+## 🛠 Steps to Hunt for XSS:
