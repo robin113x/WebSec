@@ -101,8 +101,6 @@ Post a comment like this: <script>alert('Stored XSS');</script>
 ### ✅ Payloads to Try:
 ```
 Enter this in the URL:
-
-php
   https://example.com/#<script>alert('DOM XSS');</script>
   Or test in the input fields:  <input type="text" onfocus="alert('XSS')">
 ```
