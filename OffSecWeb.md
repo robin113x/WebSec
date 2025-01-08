@@ -104,7 +104,7 @@ Enter this in the URL:
 
 php
 https://example.com/#<script>alert('DOM XSS');</script>
-Or test in the input fields: <input type="text" onfocus="alert('XSS')">
+Or test in the input fields:  <input type="text" onfocus="alert('XSS')">
 ```
 ### 🚩 Look for JavaScript Functions
 ```
