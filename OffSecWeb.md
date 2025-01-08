@@ -103,7 +103,6 @@ Post a comment like this: <script>alert('Stored XSS');</script>
 Enter this in the URL:
 
 php
-Copy code
 https://example.com/#<script>alert('DOM XSS');</script>
 Or test in the input fields:
 
