@@ -56,6 +56,7 @@ html
 Copy code
 <script>alert('XSS');</script>
 html
+``
 Copy code
 <img src=x onerror=alert('XSS')>
 html
