@@ -87,3 +87,10 @@ Enter the payload in form fields, such as a login form, search box, or feedback 
  - File uploads (malicious scripts inside files)
 ```
 
+### 🚩 Steps:
+Post a comment like this:
+
+html
+Copy code
+<script>alert('Stored XSS');</script>
+Refresh the page and see if the script runs for you or other users.
