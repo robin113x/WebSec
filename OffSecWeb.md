@@ -30,3 +30,5 @@ DOM-based XSS:
     - Happens when the client-side script processes untrusted data.
     - Example: A website’s JavaScript dynamically updates the page using URL parameters without validation.
 ```
+
+# 
