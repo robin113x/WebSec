@@ -57,7 +57,9 @@ Copy code
 <script>alert('XSS');</script>
 ```
 
-````
+```
+
+
 <img src=x onerror=alert('XSS')>
 html
 Copy code
