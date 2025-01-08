@@ -1,5 +1,4 @@
-# 
-What is XSS (Cross-Site Scripting)? 🤔
+# What is XSS (Cross-Site Scripting)? 🤔
 
 ```
   - It allows attackers to inject malicious scripts into websites.
