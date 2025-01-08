@@ -68,9 +68,8 @@ Look for places where a website accepts user input and displays it back. These c
 Try injecting payloads into URL parameters.
 
 Example:
-
-php
-   https://example.com/search?query=<script>alert('XSS')</script>
+   php
+       https://example.com/search?query=<script>alert('XSS')</script>
 
 
 ````
