@@ -94,3 +94,4 @@ Post a comment like this:
 ```
 <script>alert('Stored XSS');</script>
 Refresh the page and see if the script runs for you or other users.
+```
