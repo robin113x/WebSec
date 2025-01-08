@@ -50,7 +50,7 @@ Look for places where a website accepts user input and displays it back. These c
 ## Reflected XSS occurs when a script is injected into a URL or input field and gets reflected back immediately.
 
 ### ✅ Payloads to Try:
-##### Basic Payloads:
+#####  Basic Payloads:
 
 html
 Copy code
