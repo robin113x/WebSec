@@ -76,7 +76,8 @@ php
 Copy code
 https://example.com/search?query=<script>alert('XSS')</script>
 
-```
-In Input Fields:
+````
+
+###In Input Fields:
 Enter the payload in form fields, such as a login form, search box, or feedback form.
 
