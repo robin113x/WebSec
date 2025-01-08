@@ -151,6 +151,7 @@ Using Obfuscation:
         <img src=x onerror='javasc'+'ript:alert("XSS")'>
 Using Event Handlers:
         <input type="text" onfocus="alert('XSS')">
+ ```
 📌 Step 8: Report XSS Vulnerabilities
 If you find an XSS vulnerability, report it responsibly to the website owner or use bug bounty platforms like:
 
