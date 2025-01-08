@@ -43,5 +43,5 @@ Look for places where a website accepts user input and displays it back. These c
     - Login forms
     - URL parameters (GET requests)
     - Cookies and headers
-    -File upload functionality
+    - File upload functionality
 ```
