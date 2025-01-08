@@ -23,7 +23,7 @@
 ```
 Stored XSS (Persistent):
 
-Malicious code is saved on the website’s server (e.g., in comments or profiles).
+	Malicious code is saved on the website’s server (e.g., in comments or profiles).
 Example: An attacker writes harmful JavaScript in a comment box, and every visitor sees the harmful script.
 Reflected XSS:
 
