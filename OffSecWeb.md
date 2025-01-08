@@ -6,8 +6,6 @@
   - The attacker can steal information, manipulate the website’s content, or even take control of a user’s session.
   - Medium Risk ( low impact + high probability = medium risk )
 
-
-
 ```
 
 # 🎯 Why is XSS Dangerous?
