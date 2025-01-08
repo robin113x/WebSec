@@ -115,7 +115,8 @@ Check if the website uses functions like innerHTML, document.write(), or eval().
 ## Use pre-built XSS payload lists to try various injections.
 ### 🔗 Payloads All The Things (GitHub):
 
-https://github.com/swisskyrepo/PayloadsAllTheThings
+```
+ https://github.com/swisskyrepo/PayloadsAllTheThings
 
 📌 Step 6: Use XSS Hunting Tools
 🧰 1. Burp Suite (Most Popular)
