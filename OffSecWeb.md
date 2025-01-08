@@ -70,9 +70,9 @@ Try injecting payloads into URL parameters.
 Example:
 
 php
-```
+
 https://example.com/search?query=<script>alert('XSS')</script>
-```
+
 
 ````
 
