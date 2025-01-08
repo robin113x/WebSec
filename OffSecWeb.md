@@ -92,3 +92,6 @@ Enter the payload in form fields, such as a login form, search box, or feedback 
 Post a comment like this: <script>alert('Stored XSS');</script> 
   - Refresh the page and see if the script runs for you or other users. 
 ```
+
+
+### 📌 Step 4: Test for DOM-Based XSS
