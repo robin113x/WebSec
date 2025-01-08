@@ -39,10 +39,10 @@ DOM-based XSS:
 ```
 Look for places where a website accepts user input and displays it back. These can include:
 
-Search boxes
-Comment sections
-Login forms
-URL parameters (GET requests)
+-Search boxes
+-Comment sections
+-Login forms
+-URL parameters (GET requests)
 Cookies and headers
 File upload functionality
 ```
