@@ -59,7 +59,6 @@ Look for places where a website accepts user input and displays it back. These c
 <img src=x onerror=alert('XSS')>
 ```
 ```
-
 <svg onload=alert('XSS')>
 ```
 
