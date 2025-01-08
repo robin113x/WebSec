@@ -55,9 +55,9 @@ Look for places where a website accepts user input and displays it back. These c
 html
 Copy code
 <script>alert('XSS');</script>
-
 ```
 
+````
 <img src=x onerror=alert('XSS')>
 html
 Copy code
