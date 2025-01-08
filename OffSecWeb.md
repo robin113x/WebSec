@@ -51,7 +51,7 @@ Look for places where a website accepts user input and displays it back. These c
 
 ### ✅ Payloads to Try:
 #####  Basic Payloads:
-
+```
 html
 Copy code
 <script>alert('XSS');</script>
