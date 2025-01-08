@@ -60,9 +60,9 @@ Copy code
 ```
 html
 <img src=x onerror=alert('XSS')>
-
+```
+```
 html
-Copy code
 <svg onload=alert('XSS')>
 In URL Parameters:
 Try injecting payloads into URL parameters.
