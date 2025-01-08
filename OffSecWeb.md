@@ -20,7 +20,7 @@
 
 
 # 📋 Types of XSS:
-
+```
 Stored XSS (Persistent):
 
 Malicious code is saved on the website’s server (e.g., in comments or profiles).
@@ -33,3 +33,4 @@ DOM-based XSS:
 
 Happens when the client-side script processes untrusted data.
 Example: A website’s JavaScript dynamically updates the page using URL parameters without validation.
+```
