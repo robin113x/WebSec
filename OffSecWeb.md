@@ -159,7 +159,8 @@ HackerOne (https://hackerone.com)
 Bugcrowd (https://bugcrowd.com)
 Intigriti (https://www.intigriti.com)
 ```
-##🚩 Signs of a Successful XSS:
+## 🚩 Signs of a Successful XSS:
+```
 You see an alert box.
 You can steal cookies using:
 javascript
