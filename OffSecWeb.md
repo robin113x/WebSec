@@ -81,8 +81,8 @@ Enter the payload in form fields, such as a login form, search box, or feedback 
 
 ### ✅ Places to Check:
 ```
-Comment sections
-Profile fields
+ - Comment sections
+ -Profile fields
 Message boards
 File uploads (malicious scripts inside files)
 ```
