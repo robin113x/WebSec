@@ -153,6 +153,7 @@ Some websites may block basic payloads. Try bypass techniques:
         <input type="text" onfocus="alert('XSS')">
  ```
 ### 📌 Step 8: Report XSS Vulnerabilities
+```
 If you find an XSS vulnerability, report it responsibly to the website owner or use bug bounty platforms like:
 
 HackerOne (https://hackerone.com)
