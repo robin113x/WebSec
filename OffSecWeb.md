@@ -34,3 +34,13 @@ DOM-based XSS:
 # 🔎 How to Hunt for XSS (Cross-Site Scripting)?
 
 ## 🛠 Steps to Hunt for XSS:
+
+📌 Step 1: Identify User Input Fields
+Look for places where a website accepts user input and displays it back. These can include:
+
+Search boxes
+Comment sections
+Login forms
+URL parameters (GET requests)
+Cookies and headers
+File upload functionality
