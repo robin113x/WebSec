@@ -72,6 +72,7 @@ Example:
 php
 ```
 https://example.com/search?query=<script>alert('XSS')</script>
+```
 
 ````
 
