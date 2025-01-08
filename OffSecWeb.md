@@ -80,7 +80,9 @@ Enter the payload in form fields, such as a login form, search box, or feedback 
 ## Stored XSS occurs when your malicious input is saved on the server and shown to other users.
 
 ### ✅ Places to Check:
+```
 Comment sections
 Profile fields
 Message boards
 File uploads (malicious scripts inside files)
+```
