@@ -204,7 +204,7 @@ If input.replace(/[=(]/g, '');  --> encode it;<script>alert&#40;1)</script>
 
 ```
 
-
+### https://xsshunter.com/#/
 # Deep into XSS payload bypass techniques and handling input sanitization mechanisms. 
 
 ### 1️⃣ When Tags Are Stripped: Use Non-Script Elements (e.g., <svg>)
