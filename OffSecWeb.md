@@ -193,9 +193,9 @@ if your input correctly placed outside of any html tag then js will execute ther
 ```
 ### http://prompt.ml/0
 ```
-If tags stripping mechanism from ExtJS library
+** If tags stripping mechanism remove open & close tag i.e. <script> --> use <svg/onload=alert(1);
 
-**whenever your input reflect as a plain text you should use svg vector 
+** whenever your input reflect as a plain text you should use svg vector 
 
 If input.replace(/[=(]/g, '');  --> encode it;<script>alert&#40;1)</script>
 ( -> &#40; it means round bacess
