@@ -179,7 +179,7 @@ alert(document.domain);
 ```
 <script>alert('xss')</scripts>
 
-
+```
 <hr>
 Challenge 7 : 
 keyboard input will become a string response you can try to give input through mouse 
@@ -188,4 +188,4 @@ onmouseover=alert(1);
 if your input correctly placed outside of any html tag then js will execute there 
 "onmouseover="alert(1);
 
-```
+
