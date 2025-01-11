@@ -177,7 +177,7 @@ alert(document.domain);
 
 ### Payload
 ```
-<script>alert(xss)</scripts>
+<script>alert('xss')</scripts>
 
 
 ```
