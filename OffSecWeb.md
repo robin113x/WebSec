@@ -178,6 +178,7 @@ alert(document.domain);
 ### Payload
 ```
 <script>alert('xss')</scripts>
+');" /><script>alert('xss')</scripts>
 
 ```
 <hr>
@@ -190,5 +191,5 @@ keyboard input will become a string response you can try to give input through m
 if your input correctly placed outside of any html tag then js will execute there 
 	"onmouseover="alert(1);
 ```
-
+### http://prompt.ml/0
 
