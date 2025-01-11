@@ -181,7 +181,7 @@ alert(document.domain);
 
 ```
 <hr>
-## Challenge 7 : 
+## Challenge 7
 ```
 keyboard input will become a string response you can try to give input through mouse 
 	onmouseover=alert(1);
