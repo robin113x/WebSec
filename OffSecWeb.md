@@ -231,3 +231,9 @@ Payload Example                     :<script>alert&#40;1)</script>
 ( is replaced with &#40;
 This allows the browser to decode it back into a valid character.
 ```
+### 4️⃣ Example Bypass Using a Filtered onerror:
+```
+If you encounter a situation where the app strips typical event handlers like onerror, use obfuscation:
+                  <svg><image href="x" onerror=&#x61;&#x6C;&#x65;&#x72;&#x74;&#x28;&#x31;&#x29;></svg>
+Here, the alert(1) function is hex-encoded to bypass detection.
+```
