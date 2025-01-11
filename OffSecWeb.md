@@ -204,3 +204,14 @@ If input.replace(/[=(]/g, '');  --> encode it;<script>alert&#40;1)</script>
 
 ```
 
+
+# Deep into XSS payload bypass techniques and handling input sanitization mechanisms. 
+
+### 1️⃣ When Tags Are Stripped: Use Non-Script Elements (e.g., <svg>)
+```
+If the web application strips traditional <script> tags, you can use non-script tags that support event handlers (like onload):
+<svg/onload=alert(1)>
+The <svg> element is often allowed by filters because it's a vector graphic element.
+The onload event executes JavaScript when the SVG is loaded.
+```
+
