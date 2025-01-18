@@ -1,3 +1,4 @@
+<script>alert(1)</script>
 "><script>alert(1)</script>
 ' onmouseover=alert(9204) bad='
 "><svg/onload=prompt(0)>
