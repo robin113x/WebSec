@@ -1,3 +1,4 @@
+https://workers.cloudflare.com/
 # Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
 ``` SELECT * FROM products WHERE category = 'Gifts' AND released = 1
  ```
