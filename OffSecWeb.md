@@ -201,7 +201,8 @@ If input.replace(/[=(]/g, '');  --> encode it;<script>alert&#40;1)</script>
 ( -> &#40; it means round bacess
 
 
-** IF
+** If angle brackets HTML-encoded
+  
 
 
 ```
