@@ -201,7 +201,7 @@ If input.replace(/[=(]/g, '');  --> encode it;<script>alert&#40;1)</script>
 ( -> &#40; it means round bacess
 
 
-** If angle brackets HTML-encoded
+** If angle (<>) brackets HTML-encoded
     - " onmouseover="alert(1)"
 
 
