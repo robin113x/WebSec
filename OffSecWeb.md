@@ -202,6 +202,8 @@ If input.replace(/[=(]/g, '');  --> encode it;<script>alert&#40;1)</script>
 
 
 
+
+
 ```
 
 ### https://xsshunter.com/#/
