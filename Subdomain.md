@@ -44,6 +44,7 @@ https://inteltechniques.com/tools/Domain.html
 • Assetfinder   - https://github.com/tomnomnom/assetfinder
 • KnockPy       - https://github.com/guelfoweb/knock                 
 • DNS gen       - https://github.com/ProjectAnte/dnsgen
+• shosubgo       - shosubgo -d target.com -s YourAPIKEY
 
   ```
 
