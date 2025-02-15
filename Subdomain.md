@@ -35,6 +35,7 @@ https://inteltechniques.com/tools/Domain.html
   ```
   	
 • Subfinder     - https://github.com/projectdiscovery/subfinder
+
 • Sublister     - https://github.com/aboul3la/Sublist3r
 
 • Amass         - https://github.com/OWASP/Amass
@@ -42,9 +43,14 @@ https://inteltechniques.com/tools/Domain.html
                   grep -E '^[a-zA-Z][a-zA-Z0-9.-]*\.gokwik\.co$' all_subdomain_gokwik.txt
 
 • Assetfinder   - https://github.com/tomnomnom/assetfinder
-• KnockPy       - https://github.com/guelfoweb/knock                 
-• DNS gen       - https://github.com/ProjectAnte/dnsgen
-• shosubgo       - shosubgo -d target.com -s YourAPIKEY
+              
+
+
+• shosubgo      - shosubgo -d target.com -s YourAPIKEY
+
+• dnscan         : ./dnscan -w n0kovo_subdomains_huge.txt -d robin.com
+
+• bbot           : bbot -t gokwik.co -p subdomain-enum -o bbot.txt
 
   ```
 
