@@ -36,7 +36,11 @@ https://inteltechniques.com/tools/Domain.html
   	
 • Subfinder     - https://github.com/projectdiscovery/subfinder
 • Sublister     - https://github.com/aboul3la/Sublist3r
+
 • Amass         - https://github.com/OWASP/Amass
+                  amass enum -d robin.com | tee amass_subdomain.txt
+                  grep -E '^[a-zA-Z][a-zA-Z0-9.-]*\.gokwik\.co$' all_subdomain_gokwik.txt
+
 • Assetfinder   - https://github.com/tomnomnom/assetfinder
 • KnockPy       - https://github.com/guelfoweb/knock                 
 • DNS gen       - https://github.com/ProjectAnte/dnsgen
