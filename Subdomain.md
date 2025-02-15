@@ -38,11 +38,20 @@ https://inteltechniques.com/tools/Domain.html
 • Sublister     - https://github.com/aboul3la/Sublist3r
 • Amass         - https://github.com/OWASP/Amass
 • Assetfinder   - https://github.com/tomnomnom/assetfinder
-• KnockPy       - https://github.com/guelfoweb/knock
-• Anew          - https://github.com/tomnomnom/anew
+• KnockPy       - https://github.com/guelfoweb/knock                 
 • DNS gen       - https://github.com/ProjectAnte/dnsgen
 
   ```
+
+## File Mangement
+```
+• Anew          - https://github.com/tomnomnom/anew
+                  cat sublist3r_gokwik.txt | anew all_subdomain_gokwik.txt
+                  cat assestfinder_gokwik.txt | anew all_subdomain_gokwik.txt
+                  cat subfinder_gokwik.txt | anew all_subdomain_gokwik.txt
+                  cat sublist3r_gokwik.txt | anew all_subdomain_gokwik.txt
+
+```
 
 ## Subdomain enumeration from webites
 
