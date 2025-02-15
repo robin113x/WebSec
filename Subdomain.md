@@ -51,6 +51,7 @@ https://inteltechniques.com/tools/Domain.html
 • dnscan         : ./dnscan -w n0kovo_subdomains_huge.txt -d robin.com
 
 • bbot           : bbot -t gokwik.co -p subdomain-enum -o bbot.txt
+                 : bbot -c modules.shodan_dns.api_key=ABCDEFGHIXXXXX
 
   ```
 
