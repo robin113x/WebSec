@@ -41,19 +41,19 @@ if [ $? -ne 0 ]; then log_message "Error fetching Wayback Machine data"; fi
 ########################################################
 
 curl -s "https://certspotter.com/api/v1/issuances?domain=$domain&include_subdomains=true&expand=dns_names" \
-     | jq -r '.[].dns_names[]' | sed 's/\*\.//g' | sort -u | tee "$output/certspotter.txt" &
+     | jq -r '.[].dns_names[]' | sed 's/\*\.//g' | sort -u | tee "$output/certspotter.txt" 
 
 
 ##########################################################
 
 # Active Enumeration (Prioritized)
-subfinder -d "$domain" -all -recursive -o "$output/subfinder.txt" &
+subfinder -d "$domain" -all -recursive -o "$output/subfinder.txt" 
 if [ $? -ne 0 ]; then log_message "Error running subfinder"; fi
 
-assetfinder -subs-only  "$domain"  | tee "$output/assetfinder.txt" &
+assetfinder -subs-only  "$domain"  | tee "$output/assetfinder.txt" 
 if [ $? -ne 0 ]; then log_message "Error running assetfinder"; fi
 
-amass enum -active  -norecursive   -d "$domain"   -o "$output/amass.txt" &
+amass enum -active  -norecursive   -d "$domain"   -o "$output/amass.txt" 
 if [ $? -ne 0 ]; then log_message "Error running amass"; fi
 
 shodanx subdomain -d "$domain" -ra -o "$output/shodanx.txt" &  # ShodanX
