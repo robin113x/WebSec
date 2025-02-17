@@ -6,7 +6,7 @@ awk '{print $NF}' reverse_dns_results.txt | anew domains.txt
 
 
 # Loop through the domains
-for domain in "${domains[@]}"; do
+for domain in "$(){domains[@]}"; do
     echo "--------------------------------------------------"
     echo "Starting reconnaissance for: $domain"
     echo "--------------------------------------------------"
