@@ -45,7 +45,7 @@ python3 /home/kali/Tools/subdomain/dnscan/dnscan.py -w "$DNSCAN_WORDLIST" -d "$d
 
 wait
 
-# Consolidate Results
+
 cat "$output"/*.txt | anew "$output/all_subdomains.txt"
 massdns -r "$RESOLVER" -t A -o S "$output/all_subdomains.txt" > "$output/massdns_resolved.txt"
 
