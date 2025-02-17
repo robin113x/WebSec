@@ -40,6 +40,8 @@ if [ $? -ne 0 ]; then log_message "Error fetching Wayback Machine data"; fi
 
 ########################################################
 
+curl -s "https://certspotter.com/api/v1/issuances?domain=$domain&include_subdomains=true&expand=dns_names" \
+     | jq -r '.[].dns_names[]' | sed 's/\*\.//g' | sort -u | tee "$output/certspotter.txt" &
 
 
 ##########################################################
