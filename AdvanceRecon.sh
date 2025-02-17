@@ -38,6 +38,8 @@ if [ $? -ne 0 ]; then log_message "Error fetching URLScan data"; fi
 curl -s "http://web.archive.org/cdx/search/cdx?url=*.${domain}/*&output=json&collapse=urlkey" | jq -r '.[1:][] | .[2]' | grep -Eo "([a-zA-Z0-9._-]+\.)?$domain" | sort -u | tee "$output/wayback.txt" &
 if [ $? -ne 0 ]; then log_message "Error fetching Wayback Machine data"; fi
 
+
+
 # Active Enumeration (Prioritized)
 subfinder -d "$domain" -o "$output/subfinder.txt" &
 if [ $? -ne 0 ]; then log_message "Error running subfinder"; fi
