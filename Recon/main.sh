@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cat ipRanges.txt | dnsx -ptr -resp-only -o reverse_dns_results.txt
 
 
 
