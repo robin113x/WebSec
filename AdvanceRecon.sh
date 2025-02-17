@@ -82,7 +82,7 @@ log_message "-----------------------------------"
 cat "$output/all_subdomains.txt" | httpx -td -title -sc -ip -follow-redirects -status-code -probe  -retries 2 -threads 100 -o "$output/httpx_results.txt"
 if [ $? -ne 0 ]; then log_message "Error running httpx"; fi
 
-cat "$output/httpx_results.txt" | awk '{print $1}' > "$output/live_subdomains.txt"
+cat "$output/httpx_results.txt" | awk '{print $1}' | grep -E 'https?://' > "$output/live_hosts.txt"
 if [ $? -ne 0 ]; then log_message "Error extracting live subdomains"; fi
 
 # --- Port Scanning (naabu) ---
