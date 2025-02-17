@@ -39,8 +39,9 @@ curl -s "https://certspotter.com/api/v1/issuances?domain=$domain&include_subdoma
 # Active Enumeration
 echo "[+] Subdomain Enumeration by subfinder 🌐️"
 subfinder -d "$domain" -all -recursive -o "$output/subfinder.txt"
-
+echo "[+] Subdomain Enumeration by assetfinder 🌐️"
 assetfinder -subs-only "$domain" | tee "$output/assetfinder.txt"
+echo "[+] Subdomain Enumeration by assetfinder 🌐️"
 amass enum -active -norecursive -d "$domain" -o "$output/amass.txt"
 shodanx subdomain -d "$domain" -ra -o "$output/shodanx.txt"
 python3 /home/kali/Tools/subdomain/dnscan/dnscan.py -w "$DNSCAN_WORDLIST" -d "$domain" -o "$output/dnscan.txt"
