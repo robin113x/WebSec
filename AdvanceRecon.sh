@@ -47,7 +47,7 @@ curl -s "https://certspotter.com/api/v1/issuances?domain=$domain&include_subdoma
 ##########################################################
 
 # Active Enumeration (Prioritized)
-subfinder -d "$domain" -o "$output/subfinder.txt" &
+subfinder -d "$domain" -all -recursive -o "$output/subfinder.txt" &
 if [ $? -ne 0 ]; then log_message "Error running subfinder"; fi
 
 assetfinder -subs-only  "$domain"  | tee "$output/assetfinder.txt" &
