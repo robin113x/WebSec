@@ -42,7 +42,7 @@ subfinder -d "$domain" -all -recursive -o "$output/subfinder.txt"
 echo "[+] Subdomain Enumeration by assetfinder 🌐️"
 assetfinder -subs-only "$domain" | tee "$output/assetfinder.txt"
 echo "[+] Subdomain Enumeration by amass 🌐️"
-amass enum -active -norecursive -d "$domain" -o "$output/amass.txt"
+amass enum -norecursive -d "$domain" -o "$output/amass.txt" 
 echo "[+] Subdomain Enumeration by SHODANx 🌐️"
 shodanx subdomain -d "$domain" -ra -o "$output/shodanx.txt"
 echo "[+] Subdomain Enumeration by DNSCAN 🌐️"
@@ -61,7 +61,7 @@ awk '{print $1}' "$output/httpx_results.txt" | grep -E 'https?://' > "$output/li
 
 # --- Port Scanning ---
 log_message "[+] Port Scanning 📡"
-naabu -l "$output/live_hosts.txt" -c 200 -top-ports 1000 -o "$output/naabu_ports.txt"
+sudo naabu -l "$output/live_hosts.txt" -c 200 -top-ports 1000 -o "$output/naabu_ports.txt"
 awk '{print $1}' "$output/naabu_ports.txt" | sort -u > "$output/live_ips.txt"
 sudo nmap -sV -iL "$output/live_ips.txt" -oN "$output/nmap_results.txt" --script=vuln
 
@@ -82,3 +82,4 @@ log_message "[+] Screenshotting 📸"
 cat "$output/live_hosts.txt" | aquatone -out "$output/screenshots"
 
 log_message "[+] Scan Completed! Results saved in $output/"
+ 

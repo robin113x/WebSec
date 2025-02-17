@@ -1,9 +1,13 @@
 #!/bin/bash
 
 IP_RANGES="ipRanges.txt" 
-cat "$IP_RANGES" | dnsx -ptr -resp-only -o reverse_dns_results.txt
+cat "$IP_RANGES" | while read ip; do
+  #dnsx -ptr -resp-only -o reverse_dns_results.txt "$ip"
+   echo $ip
+done
 
-awk '{print $1}' reverse_dns_results.txt | anew domains.txt
+
+cat reverse_dns_results.txt | anew domains.txt
 
 for domain in $(cat domains.txt); do
     echo "--------------------------------------------------"
