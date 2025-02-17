@@ -83,3 +83,4 @@ cat "$output/live_hosts.txt" | aquatone -out "$output/screenshots"
 
 log_message "[+] Scan Completed! Results saved in $output/"
  
+ echo "THANKS BRO"
