@@ -2,6 +2,7 @@
 
 cat ipRanges.txt | dnsx -ptr -resp-only -o reverse_dns_results.txt
 
+awk '{print $NF}' reverse_dns_results.txt | anew domains.txt
 
 
 # Loop through the domains
