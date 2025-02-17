@@ -66,6 +66,8 @@ fi
 
 wait
 
+
+
 # Consolidate subdomains
 cat "$output"/*.txt | anew "$output/all_subdomains.txt"
 if [ $? -ne 0 ]; then log_message "Error consolidating subdomain lists"; fi
