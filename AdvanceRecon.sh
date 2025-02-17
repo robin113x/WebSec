@@ -16,7 +16,7 @@ WORDLISTS="/usr/share/wordlists/subdomain/sub.txt"
 FUZZ_WORDLIST="/usr/share/wordlists/dirb/common.txt" 
 EXTENSIONS="xml,json,sql,db,log,yml,yaml,bak,txt,tar.gz,zip,php,aspx,jsp,html" 
 DNSCAN_WORDLIST="/usr/share/wordlists/subdomain/sub.txt"
-resolvers="/usr/share/wordlists/subdomain/resolvers.txt"
+RESOLVER="/usr/share/wordlists/subdomain/resolvers.txt"
 
 
 log_message() {
@@ -67,7 +67,7 @@ fi
 
 wait
 
-massdns -r resolvers.txt -t A -o S '$output/all_subdomains.txt' > '$output/massdns_resolved.txt'
+massdns -r "$RESOLVER" -t A -o S '$output/all_subdomains.txt' > '$output/massdns_resolved.txt'
 
 # Consolidate subdomains
 cat "$output"/*.txt | anew "$output/all_subdomains.txt"
