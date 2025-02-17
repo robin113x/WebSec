@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IP_RANGES="ipRanges.txt"
+IP_RANGES="ipRanges.txt" #
 cat "$IP_RANGES" | dnsx -ptr -resp-only -o reverse_dns_results.txt
 
 awk '{print $NF}' reverse_dns_results.txt | anew domains.txt
