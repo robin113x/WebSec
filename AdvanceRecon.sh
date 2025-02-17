@@ -25,7 +25,8 @@ log_message() {
     echo "[$timestamp] $1" | tee -a "$output/scan.log"
 }
 
-# --- Subdomain Enumeration ---
+
+
 log_message "[+] Subdomain Enumeration 🌐️"
 
 # Passive Sources
