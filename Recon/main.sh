@@ -5,10 +5,6 @@ cat "$IP_RANGES" | dnsx -ptr -resp-only -o reverse_dns_results.txt
 
 awk '{print $NF}' reverse_dns_results.txt | anew domains.txt
 
-
-awk '{print $NF}' reverse_dns_results.txt | anew domains.txt
-
-# Loop through the domains and perform reconnaissance
 for domain in $(cat domains.txt); do
     echo "--------------------------------------------------"
     echo "Starting reconnaissance for: $domain"
