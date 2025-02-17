@@ -11,7 +11,7 @@ for domain in $(cat domains.txt); do
     echo "--------------------------------------------------"
 
    
-    bash recon_script.sh "$domain"  
+    bash AdvanceRecon.sh "$domain"  
 
     echo "--------------------------------------------------"
     echo "Finished reconnaissance for: $domain"
