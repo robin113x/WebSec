@@ -19,7 +19,7 @@ EXTENSIONS="xml,json,sql,db,log,yml,yaml,bak,txt,tar.gz,zip,php,aspx,jsp,html"
 DNSCAN_WORDLIST="/usr/share/wordlists/subdomain/sub.txt"
 RESOLVER="/usr/share/wordlists/subdomain/resolvers.txt"
 
-# Logging Function
+
 log_message() {
     timestamp=$(date +"%Y-%m-%d %H:%M:%S")
     echo "[$timestamp] $1" | tee -a "$output/scan.log"
