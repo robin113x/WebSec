@@ -56,7 +56,7 @@ if [ $? -ne 0 ]; then log_message "Error running assetfinder"; fi
 amass enum -active  -norecursive   -d "$domain"   -o "$output/amass.txt" 
 if [ $? -ne 0 ]; then log_message "Error running amass"; fi
 
-shodanx subdomain -d "$domain" -ra -o "$output/shodanx.txt" &  # ShodanX
+shodanx subdomain -d "$domain" -ra -o "$output/shodanx.txt"   # ShodanX
 if [ $? -ne 0 ]; then log_message "Error running shodanx"; fi
 
 python3 /home/kali/Tools/subdomain/dnscan/dnscan.py -w "$DNSCAN_WORDLIST" -d "$domain" -o "$output/dnscan.txt" & # dnscan
