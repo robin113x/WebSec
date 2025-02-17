@@ -10,8 +10,8 @@ for domain in $(cat domains.txt); do
     echo "Starting reconnaissance for: $domain"
     echo "--------------------------------------------------"
 
-    # Execute your subdomain reconnaissance script
-    bash recon_script.sh "$domain"  # Replace recon_script.sh with the actual name of your script
+   
+    bash recon_script.sh "$domain"  
 
     echo "--------------------------------------------------"
     echo "Finished reconnaissance for: $domain"
