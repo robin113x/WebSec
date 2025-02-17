@@ -29,7 +29,7 @@ log_message "[+] Subdomain Enumeration 🌐️"
 log_message "--------------------------"
 
 # Passive Sources
-curl -s "https://crt.sh/?q=%.$domain&output=json" | jq -r '.[].name_value' | sed 's/\*\.//g' | sort -u | tee "$output/crtsh.txt" &
+curl -s "https://crt.sh/?q=%.$domain&output=json" | jq -r '.[].name_value' | sed 's/\*\.//g' | sort -u | tee "$output/crtsh.txt" 
 if [ $? -ne 0 ]; then log_message "Error fetching crt.sh data"; fi
 curl -s "https://otx.alienvault.com/api/v1/indicators/hostname/$domain/passive_dns" | jq -r '.passive_dns[]?.hostname' | grep -E "^[a-zA-Z0-9.-]+\.$domain$" | sort -u | tee "$output/alienvault.txt" &
 if [ $? -ne 0 ]; then log_message "Error fetching AlienVault OTX data"; fi
