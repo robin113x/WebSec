@@ -51,7 +51,7 @@ massdns -r "$RESOLVER" -t A -o S "$output/all_subdomains.txt" > "$output/massdns
 
 # --- Live Host Discovery ---
 log_message "[+] Live Host Discovery 🚀"
-cat "$output/all_subdomains.txt" | httpx -td -title -sc -ip -follow-redirects -status-code -probe -retries 2 -threads 100 -o "$output/httpx_results.txt"
+awk '{print $1}' "$output/massdns_resolved.txt" | httpx -td -title -sc -ip -follow-redirects -status-code -probe -retries 2 -threads 100 -o "$output/httpx_results.txt"
 awk '{print $1}' "$output/httpx_results.txt" | grep -E 'https?://' > "$output/live_hosts.txt"
 
 # --- Port Scanning ---
