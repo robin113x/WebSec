@@ -66,7 +66,7 @@ fi
 
 wait
 
-
+ "massdns -r resolvers.txt -t A -o S '$output/all_subdomains.txt' > '$output/resolved.txt'"
 
 # Consolidate subdomains
 cat "$output"/*.txt | anew "$output/all_subdomains.txt"
