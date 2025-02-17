@@ -37,8 +37,9 @@ curl -s "http://web.archive.org/cdx/search/cdx?url=*.${domain}/*&output=json&col
 curl -s "https://certspotter.com/api/v1/issuances?domain=$domain&include_subdomains=true&expand=dns_names" | jq -r '.[].dns_names[]' | sort -u | tee "$output/certspotter.txt"
 
 # Active Enumeration
-echo "[+] Subdomain Enumeration 🌐️"
+echo "[+] Subdomain Enumeration by subfinder 🌐️"
 subfinder -d "$domain" -all -recursive -o "$output/subfinder.txt"
+
 assetfinder -subs-only "$domain" | tee "$output/assetfinder.txt"
 amass enum -active -norecursive -d "$domain" -o "$output/amass.txt"
 shodanx subdomain -d "$domain" -ra -o "$output/shodanx.txt"
