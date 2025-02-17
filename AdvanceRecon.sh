@@ -45,7 +45,7 @@ if [ $? -ne 0 ]; then log_message "Error running subfinder"; fi
 assetfinder -subs-only  "$domain"  | tee "$output/assetfinder.txt" &
 if [ $? -ne 0 ]; then log_message "Error running assetfinder"; fi
 
-amass enum -active  -brute -norecursive   -d "$domain"  -w $WORDLISTS  -o "$output/amass.txt" &
+amass enum -active  -brute -norecursive   -d "$domain"  -w "$WORDLISTS"  -o "$output/amass.txt" &
 if [ $? -ne 0 ]; then log_message "Error running amass"; fi
 
 shodanx subdomain -d "$domain" -ra -o "$output/shodanx.txt" &  # ShodanX
