@@ -16,7 +16,7 @@ WORDLISTS="/usr/share/wordlists/subdomain/sub.txt"
 FUZZ_WORDLIST="/usr/share/wordlists/dirb/common.txt" 
 EXTENSIONS="xml,json,sql,db,log,yml,yaml,bak,txt,tar.gz,zip,php,aspx,jsp,html" 
 DNSCAN_WORDLIST="/usr/share/wordlists/subdomain/sub.txt"
-
+resolvers="/usr/share/wordlists/subdomain/resolvers.txt"
 
 
 log_message() {
