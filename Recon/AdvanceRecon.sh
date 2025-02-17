@@ -43,7 +43,9 @@ echo "[+] Subdomain Enumeration by assetfinder 🌐️"
 assetfinder -subs-only "$domain" | tee "$output/assetfinder.txt"
 echo "[+] Subdomain Enumeration by assetfinder 🌐️"
 amass enum -active -norecursive -d "$domain" -o "$output/amass.txt"
+echo "[+] Subdomain Enumeration by SHODANx 🌐️"
 shodanx subdomain -d "$domain" -ra -o "$output/shodanx.txt"
+echo "[+] Subdomain Enumeration by DNSCAN 🌐️"
 python3 /home/kali/Tools/subdomain/dnscan/dnscan.py -w "$DNSCAN_WORDLIST" -d "$domain" -o "$output/dnscan.txt"
 
 wait
