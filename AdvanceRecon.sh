@@ -67,11 +67,13 @@ fi
 
 wait
 
+
+cat "$output"/*.txt | anew "$output/all_subdomains.txt"
+if [ $? -ne 0 ]; then log_message "Error consolidating subdomain lists"; fi
 massdns -r "$RESOLVER" -t A -o S '$output/all_subdomains.txt' > '$output/massdns_resolved.txt'
 
 # Consolidate subdomains
-cat "$output"/*.txt | anew "$output/all_subdomains.txt"
-if [ $? -ne 0 ]; then log_message "Error consolidating subdomain lists"; fi
+
 
 # --- Live Host Discovery (httpx) ---
 log_message "\n[+] Live Host Discovery (httpx) 🚀"
