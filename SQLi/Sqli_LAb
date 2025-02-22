@@ -157,3 +157,6 @@ PRINT THIS 'LJXwKG' USING UNION
 
 ______________________________________________________________________________________________________________________________________________
 SQL9: injection UNION attack, retrieving data from other tables
+
+GIVEN : The database contains a different table called users.
+        columns called username and password. FIND THE PASSWORD OF administrator 
