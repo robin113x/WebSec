@@ -14,7 +14,7 @@ Lab2 : Lab: SQL injection vulnerability allowing login bypass
 Ans :  select user from users where username='admin' -- ;
        Set-Cookie: session=97DAaA1HHJNKuXkRqL6HoyyNuaDbeHj1; 
 
-____________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________________
 Lab3 : Lab: SQL injection attack, querying the database type and version on Oracle
 
 Ans  : category='
