@@ -52,3 +52,5 @@ Ans  : GET /filter?category='
 
 ___________________________________________________________________________________________
 Lab5: SQL injection attack, listing the database contents on non-Oracle databases
+
+Given : DB contains a table that holds usernames and passwords.
