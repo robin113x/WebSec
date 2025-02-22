@@ -205,7 +205,7 @@ GIVEN : The database contains a different table called users, with columns calle
 
 ______________________________________________________________________________________________________________________________________________
 Lab11: Blind SQL injection with conditional responses
-
+GIVEN :The database contains a different table called users, with columns called username and password. 
    -FIND THE VULNERABLE PARAMETERS
     tracking cookie 
 
