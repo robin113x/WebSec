@@ -69,3 +69,6 @@ Ans  : GET /filter?category='
        ' order by 3--+ Error
      - Data Type
        ' union select 'ABC','DEF' --+
+
+     - Find DataBase Type:
+       
