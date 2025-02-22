@@ -156,3 +156,4 @@ PRINT THIS 'LJXwKG' USING UNION
 
 
 ______________________________________________________________________________________________________________________________________________
+SQL9: injection UNION attack, retrieving data from other tables
