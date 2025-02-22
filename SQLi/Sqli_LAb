@@ -206,7 +206,8 @@ GIVEN : The database contains a different table called users, with columns calle
 ______________________________________________________________________________________________________________________________________________
 Lab11: Blind SQL injection with conditional responses
 
-
+   -FIND THE VULNERABLE PARAMETERS
+    tracking cookie 
 
 
 
