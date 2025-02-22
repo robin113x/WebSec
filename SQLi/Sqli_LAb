@@ -167,7 +167,7 @@ GIVEN : The database contains a different table called users.
 
 
       -fIND THE NO. OF COLUMNS 
-      'UNION SELECT NULL,NULL,NULL --+
+      'UNION SELECT NULL,NULL --+
 
       -FIND THE DATA TYPE OF COLUMNS
       'UNION SELECT NULL,'LJXwKG',NULL --+
