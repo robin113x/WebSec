@@ -238,7 +238,7 @@ GIVEN :The database contains a different table called users, with columns called
 ______________________________________________________________________________________________________________________________________________
 Lab12: Blind SQL injection with conditional errors
 
-
+GIVEN : The database contains a different table called users, with columns called username and password. 
 
 
 
