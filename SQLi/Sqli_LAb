@@ -48,4 +48,7 @@ Ans  : GET /filter?category='
        ' union select 'ABC','DEF' --+
      -MySQL and Microsoft DB Version
        ' union select @@version,'DEF' --+
-       
+
+
+___________________________________________________________________________________________
+Lab5: SQL injection attack, listing the database contents on non-Oracle databases
