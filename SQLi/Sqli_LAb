@@ -181,7 +181,7 @@ GIVEN : The database contains a different table called users.
 ______________________________________________________________________________________________________________________________________________
 Lab10: SQL injection UNION attack, retrieving multiple values in a single column
 
-
+GIVEN : The database contains a different table called users, with columns called username and password. 
 
 
 
