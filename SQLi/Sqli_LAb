@@ -47,5 +47,5 @@ Ans  : GET /filter?category='
      - Data Type
        ' union select 'ABC','DEF' --+
      -MySQL and Microsoft DB Version
-       ' union select 'ABC','DEF' --+
+       ' union select @@version,'DEF' --+
        
