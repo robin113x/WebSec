@@ -31,7 +31,7 @@ Ans  : category='
        'UNION SELECT BANNER,NULL FROM v$version--
 
 
-_________________________________________________________________________________________
+___________________________________________________________________________________________
 Lab4 : SQL injection attack, querying the database type and version on MySQL and Microsoft
 
-
+Ans  : 
