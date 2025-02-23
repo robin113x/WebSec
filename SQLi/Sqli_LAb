@@ -284,3 +284,7 @@ Lab13: Visible error-based SQL injection
    -FIND THE VULNERABLE PARAMETERS
       Cookie: TrackingId=XDtdqzHxWpaoVHWY'
       Unterminated string literal started at position 52 in SQL SELECT * FROM tracking WHERE id = 'XDtdqzHxWpaoVHWY''. Expected  char
+
+      TrackingId=ogAZZfxtOKUELbuJ'--
+
+      
