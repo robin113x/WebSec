@@ -34,7 +34,7 @@ curl -s "https://crt.sh/?q=%.$domain&output=json" | jq -r '.[].name_value' | sed
 curl -s "https://otx.alienvault.com/api/v1/indicators/hostname/$domain/passive_dns" | jq -r '.passive_dns[]?.hostname' | sort -u | tee "$output/alienvault.txt"
 curl -s "https://urlscan.io/api/v1/search/?q=domain:$domain&size=10000" | jq -r '.results[]?.page?.domain' | sort -u | tee "$output/urlscan.txt"
 curl -s "http://web.archive.org/cdx/search/cdx?url=*.${domain}/*&output=json&collapse=urlkey" | jq -r '.[1:][] | .[2]' | sort -u | tee "$output/wayback.txt"
-curl -s "https://certspotter.com/api/v1/issuances?domain=$domain&include_subdomains=true&expand=dns_names" | jq -r '.[].dns_names[]' | sort -u | tee "$output/certspotter.txt"
+
 
 # Active Enumeration
 echo "[+] Subdomain Enumeration by subfinder 🌐️"
