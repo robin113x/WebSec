@@ -281,5 +281,6 @@ GIVEN : The database contains a different table called users, with columns calle
 ______________________________________________________________________________________________________________________________________________
 Lab13: Visible error-based SQL injection
 
-Cookie: TrackingId=XDtdqzHxWpaoVHWY'
-Unterminated string literal started at position 52 in SQL SELECT * FROM tracking WHERE id = 'XDtdqzHxWpaoVHWY''. Expected  char
+   -FIND THE VULNERABLE PARAMETERS
+      Cookie: TrackingId=XDtdqzHxWpaoVHWY'
+      Unterminated string literal started at position 52 in SQL SELECT * FROM tracking WHERE id = 'XDtdqzHxWpaoVHWY''. Expected  char
