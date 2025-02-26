@@ -15,3 +15,10 @@ crt.sh
 otx.alienvault.com
 urlscan.io
 web.archive.org
+
+
+
+#subdomain of subdomain
+
+pip3 install py-altdns==1.0.2
+
