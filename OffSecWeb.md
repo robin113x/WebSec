@@ -1,5 +1,6 @@
 # What is XSS (Cross-Site Scripting)? 🤔
 ## https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
+## https://github.com/PhHitachi/HackBar/releases/tag/v2.9
 ```
   - It allows attackers to inject malicious scripts into websites.
   - These scripts then run in the browser of other users who visit that website.
