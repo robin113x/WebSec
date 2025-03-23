@@ -27,8 +27,8 @@ if [[ "$#" -eq 2 ]]; then
     esac
 else
     echo "Choose an option:"
-    echo "1. Convert Hex to ASCII -a "
-    echo "2. Convert ASCII to Hex -h "
+    echo "1. Convert Hex to ASCII : "
+    echo "2. Convert ASCII to Hex : "
     read -p "Enter your choice (1 or 2): " choice
 
     if [[ "$choice" == "1" ]]; then
@@ -42,4 +42,3 @@ else
         exit 1
     fi
 fi
-
