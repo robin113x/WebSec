@@ -19,3 +19,19 @@ Status: 302
 Location: https://bing.com/reset_password?code=xyz999
 ```
 <hr>
+
+
+## ✅ B. Full Automation with BurpSuite Extension: Turbo Intruder
+
+### Turbo Intruder is 🔥 for automation via Burp, especially when dealing with multiple payloads or hosts.
+```
+🔧 Turbo Intruder Script for Host Header Injection:
+Install Turbo Intruder:
+
+In Burp, go to: Extensions → BApp Store → Install Turbo Intruder
+
+Right-click a request → Send to Turbo Intruder
+
+Paste this script in the Turbo Intruder tab:
+
+```
