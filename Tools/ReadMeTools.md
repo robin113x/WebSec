@@ -32,6 +32,6 @@ In Burp, go to: Extensions → BApp Store → Install Turbo Intruder
 
 Right-click a request → Send to Turbo Intruder
 
-Paste this script in the Turbo Intruder tab:
+Paste this script in the Turbo Intruder tab: HostHeader.py
 
 ```
