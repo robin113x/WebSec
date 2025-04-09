@@ -1183,3 +1183,12 @@ http://www.whitelisteddomain.tld.google.com
 /redirect?url=//example.com&next=//example.com&redirect=//example.com&redir=//example.com&rurl=//example.com&redirect_uri=//example.com
 /redirect?url=/\/example.com&next=/\/example.com&redirect=/\/example.com&redir=/\/example.com&rurl=/\/example.com&redirect_uri=/\/example.com
 /redirect?url=Https://example.com&next=Https://example.com&redirect=Https://example.com&redir=Https://example.com&rurl=Https://example.com&redirect_uri=Https://example.com
+;location.href='https://www.bing.com';//
+location.href=\"https://bing.com\"
+\";location.href='https://bing.com';//\"
+;window.location=\"https://bing.com\";//
+;location.href=\"https://bing.com\"//
+<script>location.href='https://bing.com'</script>
+%27%3Blocation.href%3D%27https%3A%2F%2Fbing.com%27%3B%2F%2F'
+
+
