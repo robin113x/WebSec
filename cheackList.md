@@ -1,4 +1,4 @@
-Comprehensive Bug Bounty Checklist (Basic to Advanced)
+
 ## Comprehensive Bug Bounty Checklist (Basic Advanced)
 ### 1. Information Gathering
 **Basic**
